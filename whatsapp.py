@@ -1,5 +1,6 @@
 from flask import jsonify
 from openai_client import openai_client  # Import the OpenAIClient instance
+from airtable_client import airtable_client
 import requests
 import config
 import logging
@@ -20,25 +21,23 @@ def send_auto_reply(chat_id, text):
         logging.error(f"Failed to send auto-reply: {e}")
 
 def handle_whatsapp_message(data):
-    """
-    Processes incoming WhatsApp messages, fetches a reply from OpenAI, 
-    and sends the response back to the user.
-    """
     messages = data.get("messages", [])
     for message in messages:
         if message.get("from_me", False):
-            continue  # Skip messages sent by the bot
+            continue  # Skip bot messages
 
-        # Extract user message and chat ID
         chat_id = message.get("chat_id")
         user_message = message.get("text", {}).get("body", "")
-        logging.info(f"Received message from {chat_id}: {user_message}")
+        print(f"Received message from {chat_id}: {user_message}")
 
-        # Get assistant's reply
+        # Save to Airtable
+        airtable_client.save_record(chat_id, user_message)  # Ensure both arguments are passed
+
+        # Get reply from OpenAI
         assistant_reply = openai_client.get_reply(chat_id, user_message)
-        logging.info(f"Assistant reply for {chat_id}: {assistant_reply}")
+        print(f"Reply for {chat_id}: {assistant_reply}")
 
-        # Send the assistant's reply back to WhatsApp
+        # Send reply back to WhatsApp
         send_auto_reply(chat_id, assistant_reply)
 
     return jsonify({"status": "success"}), 200

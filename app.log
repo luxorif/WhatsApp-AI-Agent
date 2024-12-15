@@ -112,3 +112,987 @@ If you're interested in learning more about how the LR Health Mission program an
 2024-12-15 03:27:26,333 [INFO] 172.31.196.44 - - [15/Dec/2024 03:27:26] "POST /webhook HTTP/1.1" 200 -
 2024-12-15 03:27:26,960 [INFO] 172.31.196.44 - - [15/Dec/2024 03:27:26] "POST /webhook HTTP/1.1" 200 -
 2024-12-15 03:27:27,478 [INFO] 172.31.196.44 - - [15/Dec/2024 03:27:27] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:32:06,682 [INFO] Logging initialized. This will appear in both the console and the log file.
+2024-12-15 03:32:06,682 [INFO] Starting the application...
+2024-12-15 03:32:06,685 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.196.44:5000
+2024-12-15 03:32:06,686 [INFO] [33mPress CTRL+C to quit[0m
+2024-12-15 03:32:07,513 [INFO] 172.31.196.44 - - [15/Dec/2024 03:32:07] "GET /?initialPath=/&id=:r8rk: HTTP/1.1" 200 -
+2024-12-15 03:32:07,704 [INFO] 172.31.196.44 - - [15/Dec/2024 03:32:07] "GET / HTTP/1.1" 200 -
+2024-12-15 03:32:07,890 [INFO] 172.31.196.44 - - [15/Dec/2024 03:32:07] "GET / HTTP/1.1" 200 -
+2024-12-15 03:41:36,986 [INFO] Logging initialized. This will appear in both the console and the log file.
+2024-12-15 03:41:36,988 [INFO] Starting the application...
+2024-12-15 03:41:36,994 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.196.44:5000
+2024-12-15 03:41:36,998 [INFO] [33mPress CTRL+C to quit[0m
+2024-12-15 03:41:37,899 [INFO] 172.31.196.44 - - [15/Dec/2024 03:41:37] "GET /?initialPath=/&id=:r91f: HTTP/1.1" 200 -
+2024-12-15 03:41:38,118 [INFO] 172.31.196.44 - - [15/Dec/2024 03:41:38] "GET / HTTP/1.1" 200 -
+2024-12-15 03:41:38,309 [INFO] 172.31.196.44 - - [15/Dec/2024 03:41:38] "GET / HTTP/1.1" 200 -
+2024-12-15 03:45:03,738 [INFO] Logging initialized. This will appear in both the console and the log file.
+2024-12-15 03:45:03,740 [INFO] Starting the application...
+2024-12-15 03:45:03,751 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.196.44:5000
+2024-12-15 03:45:03,751 [INFO] [33mPress CTRL+C to quit[0m
+2024-12-15 03:45:04,563 [INFO] 172.31.196.44 - - [15/Dec/2024 03:45:04] "GET /?initialPath=/&id=:r930: HTTP/1.1" 200 -
+2024-12-15 03:45:04,761 [INFO] 172.31.196.44 - - [15/Dec/2024 03:45:04] "GET / HTTP/1.1" 200 -
+2024-12-15 03:45:04,995 [INFO] 172.31.196.44 - - [15/Dec/2024 03:45:04] "GET / HTTP/1.1" 200 -
+2024-12-15 03:45:17,593 [INFO] Received message from 4915259013270@s.whatsapp.net: Hallo
+2024-12-15 03:45:18,301 [INFO] HTTP Request: POST https://api.openai.com/v1/threads/runs "HTTP/1.1 200 OK"
+2024-12-15 03:45:18,309 [INFO] Created new thread for 4915259013270@s.whatsapp.net with thread ID: thread_GXMMw3a1lPakrnkshvqOwY2u
+2024-12-15 03:45:18,455 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/runs/run_cxOZgI6ZNS0DqcMoYPga8QTf "HTTP/1.1 200 OK"
+2024-12-15 03:45:18,461 [INFO] Waiting for assistant's response on thread thread_GXMMw3a1lPakrnkshvqOwY2u...
+2024-12-15 03:45:20,648 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/runs/run_cxOZgI6ZNS0DqcMoYPga8QTf "HTTP/1.1 200 OK"
+2024-12-15 03:45:20,650 [INFO] Waiting for assistant's response on thread thread_GXMMw3a1lPakrnkshvqOwY2u...
+2024-12-15 03:45:22,820 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/runs/run_cxOZgI6ZNS0DqcMoYPga8QTf "HTTP/1.1 200 OK"
+2024-12-15 03:45:23,040 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/messages "HTTP/1.1 200 OK"
+2024-12-15 03:45:23,054 [INFO] Assistant reply for 4915259013270@s.whatsapp.net: Hallo und herzlich willkommen zur LR Health Mission! Ich bin hier, um Sie durch unser 6-monatiges Programm zu führen, das Ihre Verdauung, Leberfunktion und den Zellstoffwechsel unterstützt. Darf ich Ihnen ein paar kurze Fragen stellen, um Ihre Ziele besser zu verstehen?
+2024-12-15 03:45:23,054 [INFO] Assistant reply for 4915259013270@s.whatsapp.net: Hallo und herzlich willkommen zur LR Health Mission! Ich bin hier, um Sie durch unser 6-monatiges Programm zu führen, das Ihre Verdauung, Leberfunktion und den Zellstoffwechsel unterstützt. Darf ich Ihnen ein paar kurze Fragen stellen, um Ihre Ziele besser zu verstehen?
+2024-12-15 03:45:23,877 [INFO] Auto-reply status: 200, response: {"sent":true,"message":{"id":"yqJl8y69nEuRRnc-wFAEeGxEeJY","from_me":true,"type":"text","chat_id":"4915259013270@s.whatsapp.net","timestamp":1734234323,"source":"api","device_id":1,"status":"pending","text":{"body":"Hallo und herzlich willkommen zur LR Health Mission! Ich bin hier, um Sie durch unser 6-monatiges Programm zu führen, das Ihre Verdauung, Leberfunktion und den Zellstoffwechsel unterstützt. Darf ich Ihnen ein paar kurze Fragen stellen, um Ihre Ziele besser zu verstehen?"},"from":"491732885024"}}
+2024-12-15 03:45:23,884 [INFO] 172.31.196.44 - - [15/Dec/2024 03:45:23] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:45:24,658 [INFO] 172.31.196.44 - - [15/Dec/2024 03:45:24] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:45:25,452 [INFO] 172.31.196.44 - - [15/Dec/2024 03:45:25] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:45:30,545 [INFO] Received message from 4915259013270@s.whatsapp.net: Klar
+2024-12-15 03:45:30,743 [INFO] HTTP Request: POST https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/messages "HTTP/1.1 200 OK"
+2024-12-15 03:45:31,132 [INFO] HTTP Request: POST https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/runs "HTTP/1.1 200 OK"
+2024-12-15 03:45:31,134 [INFO] Reused thread thread_GXMMw3a1lPakrnkshvqOwY2u for 4915259013270@s.whatsapp.net, new run ID: run_n8n5kHK8lNTI0jIZk3hfdMcd
+2024-12-15 03:45:31,355 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/runs/run_n8n5kHK8lNTI0jIZk3hfdMcd "HTTP/1.1 200 OK"
+2024-12-15 03:45:31,356 [INFO] Waiting for assistant's response on thread thread_GXMMw3a1lPakrnkshvqOwY2u...
+2024-12-15 03:45:33,497 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/runs/run_n8n5kHK8lNTI0jIZk3hfdMcd "HTTP/1.1 200 OK"
+2024-12-15 03:45:33,501 [INFO] Waiting for assistant's response on thread thread_GXMMw3a1lPakrnkshvqOwY2u...
+2024-12-15 03:45:35,685 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/runs/run_n8n5kHK8lNTI0jIZk3hfdMcd "HTTP/1.1 200 OK"
+2024-12-15 03:45:35,849 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/messages "HTTP/1.1 200 OK"
+2024-12-15 03:45:35,853 [INFO] Assistant reply for 4915259013270@s.whatsapp.net: Wunderbar, vielen Dank! Was ist Ihr Hauptziel?
+
+1️⃣ Mehr Energie und allgemeines Wohlbefinden.
+2️⃣ Unterstützung für die Verdauung und Darmgesundheit.
+3️⃣ Detox und Verbesserung der Leberfunktion.
+2024-12-15 03:45:35,855 [INFO] Assistant reply for 4915259013270@s.whatsapp.net: Wunderbar, vielen Dank! Was ist Ihr Hauptziel?
+
+1️⃣ Mehr Energie und allgemeines Wohlbefinden.
+2️⃣ Unterstützung für die Verdauung und Darmgesundheit.
+3️⃣ Detox und Verbesserung der Leberfunktion.
+2024-12-15 03:45:36,499 [INFO] Auto-reply status: 200, response: {"sent":true,"message":{"id":"yqJWxJ0rUHVa9e4-wP0EeGxEeJY","from_me":true,"type":"text","chat_id":"4915259013270@s.whatsapp.net","timestamp":1734234336,"source":"api","device_id":1,"status":"pending","text":{"body":"Wunderbar, vielen Dank! Was ist Ihr Hauptziel?\n\n1️⃣ Mehr Energie und allgemeines Wohlbefinden.\n2️⃣ Unterstützung für die Verdauung und Darmgesundheit.\n3️⃣ Detox und Verbesserung der Leberfunktion."},"from":"491732885024"}}
+2024-12-15 03:45:36,505 [INFO] 172.31.196.44 - - [15/Dec/2024 03:45:36] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:45:37,263 [INFO] 172.31.196.44 - - [15/Dec/2024 03:45:37] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:45:37,710 [INFO] 172.31.196.44 - - [15/Dec/2024 03:45:37] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:45:45,468 [INFO] Received message from 4915259013270@s.whatsapp.net: 1
+2024-12-15 03:45:45,659 [INFO] HTTP Request: POST https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/messages "HTTP/1.1 200 OK"
+2024-12-15 03:45:46,102 [INFO] HTTP Request: POST https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/runs "HTTP/1.1 200 OK"
+2024-12-15 03:45:46,104 [INFO] Reused thread thread_GXMMw3a1lPakrnkshvqOwY2u for 4915259013270@s.whatsapp.net, new run ID: run_zP9uUJGfVponalpzE8MAHDor
+2024-12-15 03:45:46,322 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/runs/run_zP9uUJGfVponalpzE8MAHDor "HTTP/1.1 200 OK"
+2024-12-15 03:45:46,324 [INFO] Waiting for assistant's response on thread thread_GXMMw3a1lPakrnkshvqOwY2u...
+2024-12-15 03:45:48,617 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/runs/run_zP9uUJGfVponalpzE8MAHDor "HTTP/1.1 200 OK"
+2024-12-15 03:45:48,620 [INFO] Waiting for assistant's response on thread thread_GXMMw3a1lPakrnkshvqOwY2u...
+2024-12-15 03:45:50,858 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/runs/run_zP9uUJGfVponalpzE8MAHDor "HTTP/1.1 200 OK"
+2024-12-15 03:45:50,980 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/messages "HTTP/1.1 200 OK"
+2024-12-15 03:45:50,982 [INFO] Assistant reply for 4915259013270@s.whatsapp.net: Super! Energie und Wohlbefinden sind zentrale Vorteile der LR Health Mission, vor allem durch das Aloe Vera Drinking Gel. Ich erkläre Ihnen gerne, wie es wirkt.
+
+Das Aloe Vera Drinking Gel fördert den Zellstoffwechsel und hilft dabei, Ihr Energieniveau zu steigern. Es unterstützt auch das Immunsystem und die Hautgesundheit. Zusätzlich zum Aloe Vera Gel umfasst unser Programm weitere Komponenten wie Liver Support zur Entgiftung und Pro Balance zur Wiederherstellung des Säure-Basen-Gleichgewichts. Diese Produkte arbeiten zusammen, um Ihre Vitalität zu fördern und Ihr allgemeines Wohlbefinden zu verbessern.
+
+Klingt das bisher passend für Ihre Ziele?
+2024-12-15 03:45:50,982 [INFO] Assistant reply for 4915259013270@s.whatsapp.net: Super! Energie und Wohlbefinden sind zentrale Vorteile der LR Health Mission, vor allem durch das Aloe Vera Drinking Gel. Ich erkläre Ihnen gerne, wie es wirkt.
+
+Das Aloe Vera Drinking Gel fördert den Zellstoffwechsel und hilft dabei, Ihr Energieniveau zu steigern. Es unterstützt auch das Immunsystem und die Hautgesundheit. Zusätzlich zum Aloe Vera Gel umfasst unser Programm weitere Komponenten wie Liver Support zur Entgiftung und Pro Balance zur Wiederherstellung des Säure-Basen-Gleichgewichts. Diese Produkte arbeiten zusammen, um Ihre Vitalität zu fördern und Ihr allgemeines Wohlbefinden zu verbessern.
+
+Klingt das bisher passend für Ihre Ziele?
+2024-12-15 03:45:51,825 [INFO] Auto-reply status: 200, response: {"sent":true,"message":{"id":"yqJ9v2A1FY3xna8-wC4EeGxEeJY","from_me":true,"type":"text","chat_id":"4915259013270@s.whatsapp.net","timestamp":1734234351,"source":"api","device_id":1,"status":"pending","text":{"body":"Super! Energie und Wohlbefinden sind zentrale Vorteile der LR Health Mission, vor allem durch das Aloe Vera Drinking Gel. Ich erkläre Ihnen gerne, wie es wirkt.\n\nDas Aloe Vera Drinking Gel fördert den Zellstoffwechsel und hilft dabei, Ihr Energieniveau zu steigern. Es unterstützt auch das Immunsystem und die Hautgesundheit. Zusätzlich zum Aloe Vera Gel umfasst unser Programm weitere Komponenten wie Liver Support zur Entgiftung und Pro Balance zur Wiederherstellung des Säure-Basen-Gleichgewichts. Diese Produkte arbeiten zusammen, um Ihre Vitalität zu fördern und Ihr allgemeines Wohlbefinden zu verbessern.\n\nKlingt das bisher passend für Ihre Ziele?"},"from":"491732885024"}}
+2024-12-15 03:45:51,827 [INFO] 172.31.196.44 - - [15/Dec/2024 03:45:51] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:45:52,546 [INFO] 172.31.196.44 - - [15/Dec/2024 03:45:52] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:45:53,038 [INFO] 172.31.196.44 - - [15/Dec/2024 03:45:53] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:46:01,943 [INFO] Received message from 4915259013270@s.whatsapp.net: Ja schon
+2024-12-15 03:46:02,204 [INFO] HTTP Request: POST https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/messages "HTTP/1.1 200 OK"
+2024-12-15 03:46:02,637 [INFO] HTTP Request: POST https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/runs "HTTP/1.1 200 OK"
+2024-12-15 03:46:02,639 [INFO] Reused thread thread_GXMMw3a1lPakrnkshvqOwY2u for 4915259013270@s.whatsapp.net, new run ID: run_EAnDJURHOCxGb8WG4FzupSR6
+2024-12-15 03:46:02,809 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/runs/run_EAnDJURHOCxGb8WG4FzupSR6 "HTTP/1.1 200 OK"
+2024-12-15 03:46:02,810 [INFO] Waiting for assistant's response on thread thread_GXMMw3a1lPakrnkshvqOwY2u...
+2024-12-15 03:46:05,030 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/runs/run_EAnDJURHOCxGb8WG4FzupSR6 "HTTP/1.1 200 OK"
+2024-12-15 03:46:05,033 [INFO] Waiting for assistant's response on thread thread_GXMMw3a1lPakrnkshvqOwY2u...
+2024-12-15 03:46:07,177 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/runs/run_EAnDJURHOCxGb8WG4FzupSR6 "HTTP/1.1 200 OK"
+2024-12-15 03:46:07,462 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/messages "HTTP/1.1 200 OK"
+2024-12-15 03:46:07,465 [INFO] Assistant reply for 4915259013270@s.whatsapp.net: Wunderbar! Es freut mich zu hören, dass das Programm Ihren Vorstellungen entspricht.
+
+Das LR Health Mission Programm lässt sich einfach in den Alltag integrieren. Zusätzlich zu unseren Produkten empfehlen wir:
+
+✅ Weniger Zucker zu konsumieren.
+✅ Mehr frisches Obst und Gemüse zu essen.
+✅ Genügend Wasser zu trinken und täglich 20 Minuten aktiv zu sein.
+
+Kleine Schritte, die große Veränderungen bewirken können. Klingt das nach etwas, das Sie umsetzen können?
+2024-12-15 03:46:07,466 [INFO] Assistant reply for 4915259013270@s.whatsapp.net: Wunderbar! Es freut mich zu hören, dass das Programm Ihren Vorstellungen entspricht.
+
+Das LR Health Mission Programm lässt sich einfach in den Alltag integrieren. Zusätzlich zu unseren Produkten empfehlen wir:
+
+✅ Weniger Zucker zu konsumieren.
+✅ Mehr frisches Obst und Gemüse zu essen.
+✅ Genügend Wasser zu trinken und täglich 20 Minuten aktiv zu sein.
+
+Kleine Schritte, die große Veränderungen bewirken können. Klingt das nach etwas, das Sie umsetzen können?
+2024-12-15 03:46:08,075 [INFO] Auto-reply status: 200, response: {"sent":true,"message":{"id":"yqKJD2UZ0BNZ5bs-wPEEeGxEeJY","from_me":true,"type":"text","chat_id":"4915259013270@s.whatsapp.net","timestamp":1734234367,"source":"api","device_id":1,"status":"pending","text":{"body":"Wunderbar! Es freut mich zu hören, dass das Programm Ihren Vorstellungen entspricht.\n\nDas LR Health Mission Programm lässt sich einfach in den Alltag integrieren. Zusätzlich zu unseren Produkten empfehlen wir:\n\n✅ Weniger Zucker zu konsumieren.\n✅ Mehr frisches Obst und Gemüse zu essen.\n✅ Genügend Wasser zu trinken und täglich 20 Minuten aktiv zu sein.\n\nKleine Schritte, die große Veränderungen bewirken können. Klingt das nach etwas, das Sie umsetzen können?"},"from":"491732885024"}}
+2024-12-15 03:46:08,077 [INFO] 172.31.196.44 - - [15/Dec/2024 03:46:08] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:46:08,783 [INFO] 172.31.196.44 - - [15/Dec/2024 03:46:08] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:46:09,300 [INFO] 172.31.196.44 - - [15/Dec/2024 03:46:09] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:46:21,712 [INFO] Received message from 4915259013270@s.whatsapp.net: Ja kann ich machen
+2024-12-15 03:46:21,953 [INFO] HTTP Request: POST https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/messages "HTTP/1.1 200 OK"
+2024-12-15 03:46:22,406 [INFO] HTTP Request: POST https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/runs "HTTP/1.1 200 OK"
+2024-12-15 03:46:22,408 [INFO] Reused thread thread_GXMMw3a1lPakrnkshvqOwY2u for 4915259013270@s.whatsapp.net, new run ID: run_HRr6d6rAjCdw4LHYx7oQRYtx
+2024-12-15 03:46:22,601 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/runs/run_HRr6d6rAjCdw4LHYx7oQRYtx "HTTP/1.1 200 OK"
+2024-12-15 03:46:22,603 [INFO] Waiting for assistant's response on thread thread_GXMMw3a1lPakrnkshvqOwY2u...
+2024-12-15 03:46:24,767 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/runs/run_HRr6d6rAjCdw4LHYx7oQRYtx "HTTP/1.1 200 OK"
+2024-12-15 03:46:24,769 [INFO] Waiting for assistant's response on thread thread_GXMMw3a1lPakrnkshvqOwY2u...
+2024-12-15 03:46:26,432 [INFO] Received message from 4915259013270@s.whatsapp.net: Kömma machen junge
+2024-12-15 03:46:26,616 [INFO] HTTP Request: POST https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/messages "HTTP/1.1 200 OK"
+2024-12-15 03:46:26,947 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/runs/run_HRr6d6rAjCdw4LHYx7oQRYtx "HTTP/1.1 200 OK"
+2024-12-15 03:46:27,192 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/messages "HTTP/1.1 200 OK"
+2024-12-15 03:46:27,195 [INFO] Assistant reply for 4915259013270@s.whatsapp.net: Wunderbar! Sie sind schon auf dem richtigen Weg. Lassen Sie uns über die nächsten Schritte sprechen.
+
+Der nächste Schritt ist einfach: Monika, unsere Gesundheitsexpertin, kann einen individuellen Plan für Sie erstellen und Ihnen zeigen, wie Sie die LR Health Mission optimal nutzen können. Möchten Sie, dass ich einen Termin für ein kostenloses Beratungsgespräch mit Monika für Sie vereinbare?
+2024-12-15 03:46:27,195 [INFO] Assistant reply for 4915259013270@s.whatsapp.net: Wunderbar! Sie sind schon auf dem richtigen Weg. Lassen Sie uns über die nächsten Schritte sprechen.
+
+Der nächste Schritt ist einfach: Monika, unsere Gesundheitsexpertin, kann einen individuellen Plan für Sie erstellen und Ihnen zeigen, wie Sie die LR Health Mission optimal nutzen können. Möchten Sie, dass ich einen Termin für ein kostenloses Beratungsgespräch mit Monika für Sie vereinbare?
+2024-12-15 03:46:28,060 [INFO] Auto-reply status: 200, response: {"sent":true,"message":{"id":"yqKDZrNU1GlD0DE-wB0EeGxEeJY","from_me":true,"type":"text","chat_id":"4915259013270@s.whatsapp.net","timestamp":1734234387,"source":"api","device_id":1,"status":"pending","text":{"body":"Wunderbar! Sie sind schon auf dem richtigen Weg. Lassen Sie uns über die nächsten Schritte sprechen.\n\nDer nächste Schritt ist einfach: Monika, unsere Gesundheitsexpertin, kann einen individuellen Plan für Sie erstellen und Ihnen zeigen, wie Sie die LR Health Mission optimal nutzen können. Möchten Sie, dass ich einen Termin für ein kostenloses Beratungsgespräch mit Monika für Sie vereinbare?"},"from":"491732885024"}}
+2024-12-15 03:46:28,067 [INFO] 172.31.196.44 - - [15/Dec/2024 03:46:28] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:46:28,624 [INFO] HTTP Request: POST https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/runs "HTTP/1.1 200 OK"
+2024-12-15 03:46:28,632 [INFO] Reused thread thread_GXMMw3a1lPakrnkshvqOwY2u for 4915259013270@s.whatsapp.net, new run ID: run_rHUp173sVoJAUVbOi3mFVr5A
+2024-12-15 03:46:28,724 [INFO] 172.31.196.44 - - [15/Dec/2024 03:46:28] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:46:28,791 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/runs/run_rHUp173sVoJAUVbOi3mFVr5A "HTTP/1.1 200 OK"
+2024-12-15 03:46:28,793 [INFO] Waiting for assistant's response on thread thread_GXMMw3a1lPakrnkshvqOwY2u...
+2024-12-15 03:46:29,281 [INFO] 172.31.196.44 - - [15/Dec/2024 03:46:29] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:46:30,976 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/runs/run_rHUp173sVoJAUVbOi3mFVr5A "HTTP/1.1 200 OK"
+2024-12-15 03:46:31,168 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/messages "HTTP/1.1 200 OK"
+2024-12-15 03:46:31,171 [INFO] Assistant reply for 4915259013270@s.whatsapp.net: Super! Wann wäre es für Sie am besten, dass Monika Sie kontaktiert? Haben Sie eine bevorzugte Tageszeit oder einen bestimmten Tag?
+2024-12-15 03:46:31,171 [INFO] Assistant reply for 4915259013270@s.whatsapp.net: Super! Wann wäre es für Sie am besten, dass Monika Sie kontaktiert? Haben Sie eine bevorzugte Tageszeit oder einen bestimmten Tag?
+2024-12-15 03:46:31,785 [INFO] Auto-reply status: 200, response: {"sent":true,"message":{"id":"yqKEHCpaJu7EiKk-wJIEeGxEeJY","from_me":true,"type":"text","chat_id":"4915259013270@s.whatsapp.net","timestamp":1734234391,"source":"api","device_id":1,"status":"pending","text":{"body":"Super! Wann wäre es für Sie am besten, dass Monika Sie kontaktiert? Haben Sie eine bevorzugte Tageszeit oder einen bestimmten Tag?"},"from":"491732885024"}}
+2024-12-15 03:46:31,788 [INFO] 172.31.196.44 - - [15/Dec/2024 03:46:31] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:46:32,446 [INFO] 172.31.196.44 - - [15/Dec/2024 03:46:32] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:46:32,966 [INFO] 172.31.196.44 - - [15/Dec/2024 03:46:32] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:46:42,277 [INFO] Received message from 4915259013270@s.whatsapp.net: Freitag um 13:00
+2024-12-15 03:46:44,557 [INFO] HTTP Request: POST https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/messages "HTTP/1.1 200 OK"
+2024-12-15 03:46:45,066 [INFO] HTTP Request: POST https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/runs "HTTP/1.1 200 OK"
+2024-12-15 03:46:45,069 [INFO] Reused thread thread_GXMMw3a1lPakrnkshvqOwY2u for 4915259013270@s.whatsapp.net, new run ID: run_deG07gQnDNWVP7Li688E8T0e
+2024-12-15 03:46:45,214 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/runs/run_deG07gQnDNWVP7Li688E8T0e "HTTP/1.1 200 OK"
+2024-12-15 03:46:45,216 [INFO] Waiting for assistant's response on thread thread_GXMMw3a1lPakrnkshvqOwY2u...
+2024-12-15 03:46:47,405 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/runs/run_deG07gQnDNWVP7Li688E8T0e "HTTP/1.1 200 OK"
+2024-12-15 03:46:47,560 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/messages "HTTP/1.1 200 OK"
+2024-12-15 03:46:47,563 [INFO] Assistant reply for 4915259013270@s.whatsapp.net: Perfekt, ich habe notiert: Freitag um 13:00 Uhr. Monika wird sich zu diesem Zeitpunkt bei Ihnen melden, um alles weitere zu besprechen und Ihren individuellen Plan auszuarbeiten.
+
+Haben Sie noch weitere Fragen oder gibt es etwas, das ich für Sie tun kann, bevor wir unser Gespräch abschließen?
+2024-12-15 03:46:47,563 [INFO] Assistant reply for 4915259013270@s.whatsapp.net: Perfekt, ich habe notiert: Freitag um 13:00 Uhr. Monika wird sich zu diesem Zeitpunkt bei Ihnen melden, um alles weitere zu besprechen und Ihren individuellen Plan auszuarbeiten.
+
+Haben Sie noch weitere Fragen oder gibt es etwas, das ich für Sie tun kann, bevor wir unser Gespräch abschließen?
+2024-12-15 03:46:48,418 [INFO] Auto-reply status: 200, response: {"sent":true,"message":{"id":"yqIHtbHBRESbgO0-wAwEeGxEeJY","from_me":true,"type":"text","chat_id":"4915259013270@s.whatsapp.net","timestamp":1734234408,"source":"api","device_id":1,"status":"pending","text":{"body":"Perfekt, ich habe notiert: Freitag um 13:00 Uhr. Monika wird sich zu diesem Zeitpunkt bei Ihnen melden, um alles weitere zu besprechen und Ihren individuellen Plan auszuarbeiten.\n\nHaben Sie noch weitere Fragen oder gibt es etwas, das ich für Sie tun kann, bevor wir unser Gespräch abschließen?"},"from":"491732885024"}}
+2024-12-15 03:46:48,420 [INFO] 172.31.196.44 - - [15/Dec/2024 03:46:48] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:46:49,083 [INFO] 172.31.196.44 - - [15/Dec/2024 03:46:49] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:46:49,611 [INFO] 172.31.196.44 - - [15/Dec/2024 03:46:49] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:47:05,385 [INFO] Received message from 4915259013270@s.whatsapp.net: Bist du ein Mensch?
+2024-12-15 03:47:05,622 [INFO] HTTP Request: POST https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/messages "HTTP/1.1 200 OK"
+2024-12-15 03:47:08,194 [INFO] HTTP Request: POST https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/runs "HTTP/1.1 200 OK"
+2024-12-15 03:47:08,196 [INFO] Reused thread thread_GXMMw3a1lPakrnkshvqOwY2u for 4915259013270@s.whatsapp.net, new run ID: run_mAV0bvhjB6jF2AyL90G6BNJ3
+2024-12-15 03:47:08,388 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/runs/run_mAV0bvhjB6jF2AyL90G6BNJ3 "HTTP/1.1 200 OK"
+2024-12-15 03:47:08,389 [INFO] Waiting for assistant's response on thread thread_GXMMw3a1lPakrnkshvqOwY2u...
+2024-12-15 03:47:10,585 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/runs/run_mAV0bvhjB6jF2AyL90G6BNJ3 "HTTP/1.1 200 OK"
+2024-12-15 03:47:10,587 [INFO] Waiting for assistant's response on thread thread_GXMMw3a1lPakrnkshvqOwY2u...
+2024-12-15 03:47:12,779 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/runs/run_mAV0bvhjB6jF2AyL90G6BNJ3 "HTTP/1.1 200 OK"
+2024-12-15 03:47:12,944 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/messages "HTTP/1.1 200 OK"
+2024-12-15 03:47:12,947 [INFO] Assistant reply for 4915259013270@s.whatsapp.net: Ich bin ein KI-assistiertes Programm, entwickelt, um Ihnen Informationen und Unterstützung auf effiziente Weise zu bieten. Ich stehe Ihnen gerne für weitere Fragen oder Anliegen zur Verfügung! Wie kann ich Ihnen heute noch weiterhelfen?
+2024-12-15 03:47:12,948 [INFO] Assistant reply for 4915259013270@s.whatsapp.net: Ich bin ein KI-assistiertes Programm, entwickelt, um Ihnen Informationen und Unterstützung auf effiziente Weise zu bieten. Ich stehe Ihnen gerne für weitere Fragen oder Anliegen zur Verfügung! Wie kann ich Ihnen heute noch weiterhelfen?
+2024-12-15 03:47:13,561 [INFO] Auto-reply status: 200, response: {"sent":true,"message":{"id":"yqKTIT9XcxGyumo-wFIEeGxEeJY","from_me":true,"type":"text","chat_id":"4915259013270@s.whatsapp.net","timestamp":1734234433,"source":"api","device_id":1,"status":"pending","text":{"body":"Ich bin ein KI-assistiertes Programm, entwickelt, um Ihnen Informationen und Unterstützung auf effiziente Weise zu bieten. Ich stehe Ihnen gerne für weitere Fragen oder Anliegen zur Verfügung! Wie kann ich Ihnen heute noch weiterhelfen?"},"from":"491732885024"}}
+2024-12-15 03:47:13,563 [INFO] 172.31.196.44 - - [15/Dec/2024 03:47:13] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:47:14,282 [INFO] 172.31.196.44 - - [15/Dec/2024 03:47:14] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:47:14,743 [INFO] 172.31.196.44 - - [15/Dec/2024 03:47:14] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:47:41,655 [INFO] Received message from 4915259013270@s.whatsapp.net: Can you also talk english?
+2024-12-15 03:47:41,830 [INFO] HTTP Request: POST https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/messages "HTTP/1.1 200 OK"
+2024-12-15 03:47:42,337 [INFO] HTTP Request: POST https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/runs "HTTP/1.1 200 OK"
+2024-12-15 03:47:42,339 [INFO] Reused thread thread_GXMMw3a1lPakrnkshvqOwY2u for 4915259013270@s.whatsapp.net, new run ID: run_5YeKGx8IT5TT8b3VQV29vOzT
+2024-12-15 03:47:42,529 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/runs/run_5YeKGx8IT5TT8b3VQV29vOzT "HTTP/1.1 200 OK"
+2024-12-15 03:47:42,531 [INFO] Waiting for assistant's response on thread thread_GXMMw3a1lPakrnkshvqOwY2u...
+2024-12-15 03:47:44,724 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/runs/run_5YeKGx8IT5TT8b3VQV29vOzT "HTTP/1.1 200 OK"
+2024-12-15 03:47:44,869 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/messages "HTTP/1.1 200 OK"
+2024-12-15 03:47:44,875 [INFO] Assistant reply for 4915259013270@s.whatsapp.net: Yes, I can communicate in English as well! How can I assist you further?
+2024-12-15 03:47:44,877 [INFO] Assistant reply for 4915259013270@s.whatsapp.net: Yes, I can communicate in English as well! How can I assist you further?
+2024-12-15 03:47:45,743 [INFO] Auto-reply status: 200, response: {"sent":true,"message":{"id":"yqI5CtdtbQIhpeI-wN4EeGxEeJY","from_me":true,"type":"text","chat_id":"4915259013270@s.whatsapp.net","timestamp":1734234465,"source":"api","device_id":1,"status":"pending","text":{"body":"Yes, I can communicate in English as well! How can I assist you further?"},"from":"491732885024"}}
+2024-12-15 03:47:45,745 [INFO] 172.31.196.44 - - [15/Dec/2024 03:47:45] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:47:46,401 [INFO] 172.31.196.44 - - [15/Dec/2024 03:47:46] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:47:46,945 [INFO] 172.31.196.44 - - [15/Dec/2024 03:47:46] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:50:03,252 [INFO] Received message from 4915259013270@s.whatsapp.net: Can you repeat from the beginning on english?
+2024-12-15 03:50:03,460 [INFO] HTTP Request: POST https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/messages "HTTP/1.1 200 OK"
+2024-12-15 03:50:06,576 [INFO] HTTP Request: POST https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/runs "HTTP/1.1 200 OK"
+2024-12-15 03:50:06,578 [INFO] Reused thread thread_GXMMw3a1lPakrnkshvqOwY2u for 4915259013270@s.whatsapp.net, new run ID: run_4WMgp8G0c0MHmKU6raJ32R6p
+2024-12-15 03:50:06,748 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/runs/run_4WMgp8G0c0MHmKU6raJ32R6p "HTTP/1.1 200 OK"
+2024-12-15 03:50:06,749 [INFO] Waiting for assistant's response on thread thread_GXMMw3a1lPakrnkshvqOwY2u...
+2024-12-15 03:50:08,896 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/runs/run_4WMgp8G0c0MHmKU6raJ32R6p "HTTP/1.1 200 OK"
+2024-12-15 03:50:09,043 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/messages "HTTP/1.1 200 OK"
+2024-12-15 03:50:09,097 [INFO] Assistant reply for 4915259013270@s.whatsapp.net: Hello and welcome to the LR Health Mission! I'm here to guide you through our 6-month program designed to support your digestion, liver function, and cellular metabolism. May I ask you a few brief questions to better understand your goals?
+
+2024-12-15 03:50:09,105 [INFO] Assistant reply for 4915259013270@s.whatsapp.net: Hello and welcome to the LR Health Mission! I'm here to guide you through our 6-month program designed to support your digestion, liver function, and cellular metabolism. May I ask you a few brief questions to better understand your goals?
+
+2024-12-15 03:50:09,780 [INFO] Auto-reply status: 200, response: {"sent":true,"message":{"id":"yqJxh.4Bz8.WzOA-wCkEeGxEeJY","from_me":true,"type":"text","chat_id":"4915259013270@s.whatsapp.net","timestamp":1734234609,"source":"api","device_id":1,"status":"pending","text":{"body":"Hello and welcome to the LR Health Mission! I'm here to guide you through our 6-month program designed to support your digestion, liver function, and cellular metabolism. May I ask you a few brief questions to better understand your goals?\n"},"from":"491732885024"}}
+2024-12-15 03:50:09,782 [INFO] 172.31.196.44 - - [15/Dec/2024 03:50:09] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:50:10,419 [INFO] 172.31.196.44 - - [15/Dec/2024 03:50:10] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:50:11,045 [INFO] 172.31.196.44 - - [15/Dec/2024 03:50:11] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:50:22,645 [INFO] Received message from 4915259013270@s.whatsapp.net: Sure
+2024-12-15 03:50:22,889 [INFO] HTTP Request: POST https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/messages "HTTP/1.1 200 OK"
+2024-12-15 03:50:23,351 [INFO] HTTP Request: POST https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/runs "HTTP/1.1 200 OK"
+2024-12-15 03:50:23,353 [INFO] Reused thread thread_GXMMw3a1lPakrnkshvqOwY2u for 4915259013270@s.whatsapp.net, new run ID: run_IcIGV8pg1B5bRIgsvKZGonH3
+2024-12-15 03:50:23,523 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/runs/run_IcIGV8pg1B5bRIgsvKZGonH3 "HTTP/1.1 200 OK"
+2024-12-15 03:50:23,524 [INFO] Waiting for assistant's response on thread thread_GXMMw3a1lPakrnkshvqOwY2u...
+2024-12-15 03:50:25,700 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/runs/run_IcIGV8pg1B5bRIgsvKZGonH3 "HTTP/1.1 200 OK"
+2024-12-15 03:50:27,216 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/messages "HTTP/1.1 200 OK"
+2024-12-15 03:50:27,224 [INFO] Assistant reply for 4915259013270@s.whatsapp.net: Great, thank you! What is your main goal?
+
+1️⃣ More energy and overall well-being.
+2️⃣ Support for digestion and gut health.
+3️⃣ Detox and improvement of liver function.
+2024-12-15 03:50:27,228 [INFO] Assistant reply for 4915259013270@s.whatsapp.net: Great, thank you! What is your main goal?
+
+1️⃣ More energy and overall well-being.
+2️⃣ Support for digestion and gut health.
+3️⃣ Detox and improvement of liver function.
+2024-12-15 03:50:27,918 [INFO] Auto-reply status: 200, response: {"sent":true,"message":{"id":"yqK8QmPz2fq8HrI-wF8EeGxEeJY","from_me":true,"type":"text","chat_id":"4915259013270@s.whatsapp.net","timestamp":1734234627,"source":"api","device_id":1,"status":"pending","text":{"body":"Great, thank you! What is your main goal?\n\n1️⃣ More energy and overall well-being.\n2️⃣ Support for digestion and gut health.\n3️⃣ Detox and improvement of liver function."},"from":"491732885024"}}
+2024-12-15 03:50:27,921 [INFO] 172.31.196.44 - - [15/Dec/2024 03:50:27] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:50:28,572 [INFO] 172.31.196.44 - - [15/Dec/2024 03:50:28] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:50:29,102 [INFO] 172.31.196.44 - - [15/Dec/2024 03:50:29] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:50:32,482 [INFO] Received message from 4915259013270@s.whatsapp.net: 1
+2024-12-15 03:50:32,717 [INFO] HTTP Request: POST https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/messages "HTTP/1.1 200 OK"
+2024-12-15 03:50:33,192 [INFO] HTTP Request: POST https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/runs "HTTP/1.1 200 OK"
+2024-12-15 03:50:33,194 [INFO] Reused thread thread_GXMMw3a1lPakrnkshvqOwY2u for 4915259013270@s.whatsapp.net, new run ID: run_NrcC9ZAO0YJxsbzZNJDLg88x
+2024-12-15 03:50:33,343 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/runs/run_NrcC9ZAO0YJxsbzZNJDLg88x "HTTP/1.1 200 OK"
+2024-12-15 03:50:33,345 [INFO] Waiting for assistant's response on thread thread_GXMMw3a1lPakrnkshvqOwY2u...
+2024-12-15 03:50:35,495 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/runs/run_NrcC9ZAO0YJxsbzZNJDLg88x "HTTP/1.1 200 OK"
+2024-12-15 03:50:35,496 [INFO] Waiting for assistant's response on thread thread_GXMMw3a1lPakrnkshvqOwY2u...
+2024-12-15 03:50:37,624 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/runs/run_NrcC9ZAO0YJxsbzZNJDLg88x "HTTP/1.1 200 OK"
+2024-12-15 03:50:37,774 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/messages "HTTP/1.1 200 OK"
+2024-12-15 03:50:37,779 [INFO] Assistant reply for 4915259013270@s.whatsapp.net: Excellent choice! Energy and well-being are key benefits of the LR Health Mission, especially through the Aloe Vera Drinking Gel. I’m happy to explain how it works.
+
+The Aloe Vera Drinking Gel helps to enhance cellular metabolism, boosting your energy levels. It also supports the immune system and skin health. Along with the Aloe Vera Gel, our program includes other components like Liver Support for detoxification and Pro Balance to restore acid-base balance. These products work together to improve your vitality and overall well-being.
+
+Does this sound like it aligns with your goals so far?
+2024-12-15 03:50:37,783 [INFO] Assistant reply for 4915259013270@s.whatsapp.net: Excellent choice! Energy and well-being are key benefits of the LR Health Mission, especially through the Aloe Vera Drinking Gel. I’m happy to explain how it works.
+
+The Aloe Vera Drinking Gel helps to enhance cellular metabolism, boosting your energy levels. It also supports the immune system and skin health. Along with the Aloe Vera Gel, our program includes other components like Liver Support for detoxification and Pro Balance to restore acid-base balance. These products work together to improve your vitality and overall well-being.
+
+Does this sound like it aligns with your goals so far?
+2024-12-15 03:50:38,545 [INFO] Auto-reply status: 200, response: {"sent":true,"message":{"id":"yqJrDGQFw9N2u44-wBwEeGxEeJY","from_me":true,"type":"text","chat_id":"4915259013270@s.whatsapp.net","timestamp":1734234638,"source":"api","device_id":1,"status":"pending","text":{"body":"Excellent choice! Energy and well-being are key benefits of the LR Health Mission, especially through the Aloe Vera Drinking Gel. I’m happy to explain how it works.\n\nThe Aloe Vera Drinking Gel helps to enhance cellular metabolism, boosting your energy levels. It also supports the immune system and skin health. Along with the Aloe Vera Gel, our program includes other components like Liver Support for detoxification and Pro Balance to restore acid-base balance. These products work together to improve your vitality and overall well-being.\n\nDoes this sound like it aligns with your goals so far?"},"from":"491732885024"}}
+2024-12-15 03:50:38,547 [INFO] 172.31.196.44 - - [15/Dec/2024 03:50:38] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:50:39,201 [INFO] 172.31.196.44 - - [15/Dec/2024 03:50:39] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:50:39,797 [INFO] 172.31.196.44 - - [15/Dec/2024 03:50:39] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:50:44,515 [INFO] Received message from 4915259013270@s.whatsapp.net: Sure
+2024-12-15 03:50:44,726 [INFO] HTTP Request: POST https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/messages "HTTP/1.1 200 OK"
+2024-12-15 03:50:45,161 [INFO] HTTP Request: POST https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/runs "HTTP/1.1 200 OK"
+2024-12-15 03:50:45,162 [INFO] Reused thread thread_GXMMw3a1lPakrnkshvqOwY2u for 4915259013270@s.whatsapp.net, new run ID: run_2AvHsOk0TcKgWOELCwKXgULv
+2024-12-15 03:50:45,357 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/runs/run_2AvHsOk0TcKgWOELCwKXgULv "HTTP/1.1 200 OK"
+2024-12-15 03:50:45,358 [INFO] Waiting for assistant's response on thread thread_GXMMw3a1lPakrnkshvqOwY2u...
+2024-12-15 03:50:47,532 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/runs/run_2AvHsOk0TcKgWOELCwKXgULv "HTTP/1.1 200 OK"
+2024-12-15 03:50:47,534 [INFO] Waiting for assistant's response on thread thread_GXMMw3a1lPakrnkshvqOwY2u...
+2024-12-15 03:50:49,671 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/runs/run_2AvHsOk0TcKgWOELCwKXgULv "HTTP/1.1 200 OK"
+2024-12-15 03:50:49,829 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/messages "HTTP/1.1 200 OK"
+2024-12-15 03:50:49,879 [INFO] Assistant reply for 4915259013270@s.whatsapp.net: Fantastic! I'm glad to hear that it aligns with your goals.
+
+The LR Health Mission program is designed to easily fit into your daily routine. In addition to our products, we recommend:
+
+✅ Reducing sugar intake.
+✅ Eating more fresh fruits and vegetables.
+✅ Drinking enough water and being active for at least 20 minutes a day.
+
+These are small steps that can lead to significant changes. Does this sound like something you can implement?
+2024-12-15 03:50:49,879 [INFO] Assistant reply for 4915259013270@s.whatsapp.net: Fantastic! I'm glad to hear that it aligns with your goals.
+
+The LR Health Mission program is designed to easily fit into your daily routine. In addition to our products, we recommend:
+
+✅ Reducing sugar intake.
+✅ Eating more fresh fruits and vegetables.
+✅ Drinking enough water and being active for at least 20 minutes a day.
+
+These are small steps that can lead to significant changes. Does this sound like something you can implement?
+2024-12-15 03:50:50,501 [INFO] Auto-reply status: 200, response: {"sent":true,"message":{"id":"yqJG55BI5iHmPJQ-wEQEeGxEeJY","from_me":true,"type":"text","chat_id":"4915259013270@s.whatsapp.net","timestamp":1734234650,"source":"api","device_id":1,"status":"pending","text":{"body":"Fantastic! I'm glad to hear that it aligns with your goals.\n\nThe LR Health Mission program is designed to easily fit into your daily routine. In addition to our products, we recommend:\n\n✅ Reducing sugar intake.\n✅ Eating more fresh fruits and vegetables.\n✅ Drinking enough water and being active for at least 20 minutes a day.\n\nThese are small steps that can lead to significant changes. Does this sound like something you can implement?"},"from":"491732885024"}}
+2024-12-15 03:50:50,504 [INFO] 172.31.196.44 - - [15/Dec/2024 03:50:50] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:50:51,249 [INFO] 172.31.196.44 - - [15/Dec/2024 03:50:51] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:50:51,683 [INFO] 172.31.196.44 - - [15/Dec/2024 03:50:51] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:51:08,490 [INFO] Received message from 4915259013270@s.whatsapp.net: Definitel
+2024-12-15 03:51:08,669 [INFO] HTTP Request: POST https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/messages "HTTP/1.1 200 OK"
+2024-12-15 03:51:12,225 [INFO] HTTP Request: POST https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/runs "HTTP/1.1 200 OK"
+2024-12-15 03:51:12,227 [INFO] Reused thread thread_GXMMw3a1lPakrnkshvqOwY2u for 4915259013270@s.whatsapp.net, new run ID: run_CpYTuiEM0em6eiepjysXMvbD
+2024-12-15 03:51:13,251 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/runs/run_CpYTuiEM0em6eiepjysXMvbD "HTTP/1.1 200 OK"
+2024-12-15 03:51:13,253 [INFO] Waiting for assistant's response on thread thread_GXMMw3a1lPakrnkshvqOwY2u...
+2024-12-15 03:51:15,433 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/runs/run_CpYTuiEM0em6eiepjysXMvbD "HTTP/1.1 200 OK"
+2024-12-15 03:51:15,598 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/messages "HTTP/1.1 200 OK"
+2024-12-15 03:51:15,620 [INFO] Assistant reply for 4915259013270@s.whatsapp.net: Wonderful! You’re already on the right path. Let's talk about the next steps.
+
+The next step is simple: Monika, our health expert, can create a personalized plan for you and show you how to make the most out of the LR Health Mission. Would you like me to schedule a free consultation with Monika for you?
+2024-12-15 03:51:15,632 [INFO] Assistant reply for 4915259013270@s.whatsapp.net: Wonderful! You’re already on the right path. Let's talk about the next steps.
+
+The next step is simple: Monika, our health expert, can create a personalized plan for you and show you how to make the most out of the LR Health Mission. Would you like me to schedule a free consultation with Monika for you?
+2024-12-15 03:51:16,385 [INFO] Auto-reply status: 200, response: {"sent":true,"message":{"id":"yqKdPIJ8Qf7B_C8-wO4EeGxEeJY","from_me":true,"type":"text","chat_id":"4915259013270@s.whatsapp.net","timestamp":1734234676,"source":"api","device_id":1,"status":"pending","text":{"body":"Wonderful! You’re already on the right path. Let's talk about the next steps.\n\nThe next step is simple: Monika, our health expert, can create a personalized plan for you and show you how to make the most out of the LR Health Mission. Would you like me to schedule a free consultation with Monika for you?"},"from":"491732885024"}}
+2024-12-15 03:51:16,391 [INFO] 172.31.196.44 - - [15/Dec/2024 03:51:16] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:51:17,036 [INFO] 172.31.196.44 - - [15/Dec/2024 03:51:17] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:51:17,555 [INFO] 172.31.196.44 - - [15/Dec/2024 03:51:17] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:51:25,107 [INFO] Received message from 4915259013270@s.whatsapp.net: Sure why not
+2024-12-15 03:51:25,296 [INFO] HTTP Request: POST https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/messages "HTTP/1.1 200 OK"
+2024-12-15 03:51:25,761 [INFO] HTTP Request: POST https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/runs "HTTP/1.1 200 OK"
+2024-12-15 03:51:25,766 [INFO] Reused thread thread_GXMMw3a1lPakrnkshvqOwY2u for 4915259013270@s.whatsapp.net, new run ID: run_C1BNDTzLTwYedfKYPoV8rmrw
+2024-12-15 03:51:25,943 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/runs/run_C1BNDTzLTwYedfKYPoV8rmrw "HTTP/1.1 200 OK"
+2024-12-15 03:51:25,945 [INFO] Waiting for assistant's response on thread thread_GXMMw3a1lPakrnkshvqOwY2u...
+2024-12-15 03:51:28,138 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/runs/run_C1BNDTzLTwYedfKYPoV8rmrw "HTTP/1.1 200 OK"
+2024-12-15 03:51:28,295 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/messages "HTTP/1.1 200 OK"
+2024-12-15 03:51:28,346 [INFO] Assistant reply for 4915259013270@s.whatsapp.net: Great! When would be the best time for Monika to contact you? Do you have a preferred day or time?
+2024-12-15 03:51:28,346 [INFO] Assistant reply for 4915259013270@s.whatsapp.net: Great! When would be the best time for Monika to contact you? Do you have a preferred day or time?
+2024-12-15 03:51:28,980 [INFO] Auto-reply status: 200, response: {"sent":true,"message":{"id":"yqIQSQQUWXEBhF0-wNEEeGxEeJY","from_me":true,"type":"text","chat_id":"4915259013270@s.whatsapp.net","timestamp":1734234688,"source":"api","device_id":1,"status":"pending","text":{"body":"Great! When would be the best time for Monika to contact you? Do you have a preferred day or time?"},"from":"491732885024"}}
+2024-12-15 03:51:28,985 [INFO] 172.31.196.44 - - [15/Dec/2024 03:51:28] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:51:29,634 [INFO] 172.31.196.44 - - [15/Dec/2024 03:51:29] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:51:30,175 [INFO] 172.31.196.44 - - [15/Dec/2024 03:51:30] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:51:41,024 [INFO] Received message from 4915259013270@s.whatsapp.net: Tomorrow at 14:00
+2024-12-15 03:51:41,237 [INFO] HTTP Request: POST https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/messages "HTTP/1.1 200 OK"
+2024-12-15 03:51:41,877 [INFO] HTTP Request: POST https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/runs "HTTP/1.1 200 OK"
+2024-12-15 03:51:41,879 [INFO] Reused thread thread_GXMMw3a1lPakrnkshvqOwY2u for 4915259013270@s.whatsapp.net, new run ID: run_ig2tshgn6q4fdCCdVsAkObTF
+2024-12-15 03:51:42,026 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/runs/run_ig2tshgn6q4fdCCdVsAkObTF "HTTP/1.1 200 OK"
+2024-12-15 03:51:42,027 [INFO] Waiting for assistant's response on thread thread_GXMMw3a1lPakrnkshvqOwY2u...
+2024-12-15 03:51:44,173 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/runs/run_ig2tshgn6q4fdCCdVsAkObTF "HTTP/1.1 200 OK"
+2024-12-15 03:51:44,339 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/messages "HTTP/1.1 200 OK"
+2024-12-15 03:51:44,382 [INFO] Assistant reply for 4915259013270@s.whatsapp.net: Perfect, I've noted down: Tomorrow at 14:00. Monika will contact you at that time to discuss everything further and work on your personalized plan.
+
+Do you have any other questions or is there anything else I can assist you with before we conclude our conversation?
+2024-12-15 03:51:44,382 [INFO] Assistant reply for 4915259013270@s.whatsapp.net: Perfect, I've noted down: Tomorrow at 14:00. Monika will contact you at that time to discuss everything further and work on your personalized plan.
+
+Do you have any other questions or is there anything else I can assist you with before we conclude our conversation?
+2024-12-15 03:51:45,026 [INFO] Auto-reply status: 200, response: {"sent":true,"message":{"id":"yqIVHp__SGGBVL4-wKMEeGxEeJY","from_me":true,"type":"text","chat_id":"4915259013270@s.whatsapp.net","timestamp":1734234704,"source":"api","device_id":1,"status":"pending","text":{"body":"Perfect, I've noted down: Tomorrow at 14:00. Monika will contact you at that time to discuss everything further and work on your personalized plan.\n\nDo you have any other questions or is there anything else I can assist you with before we conclude our conversation?"},"from":"491732885024"}}
+2024-12-15 03:51:45,028 [INFO] 172.31.196.44 - - [15/Dec/2024 03:51:45] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:51:45,676 [INFO] 172.31.196.44 - - [15/Dec/2024 03:51:45] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:51:46,232 [INFO] 172.31.196.44 - - [15/Dec/2024 03:51:46] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:52:03,790 [INFO] Received message from 4915259013270@s.whatsapp.net: Hast du große Sxhwanz?
+2024-12-15 03:52:04,188 [INFO] HTTP Request: POST https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/messages "HTTP/1.1 200 OK"
+2024-12-15 03:52:04,671 [INFO] HTTP Request: POST https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/runs "HTTP/1.1 200 OK"
+2024-12-15 03:52:04,672 [INFO] Reused thread thread_GXMMw3a1lPakrnkshvqOwY2u for 4915259013270@s.whatsapp.net, new run ID: run_9yVwsjFw5QxXp8dv3FHQ0ZKI
+2024-12-15 03:52:04,820 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/runs/run_9yVwsjFw5QxXp8dv3FHQ0ZKI "HTTP/1.1 200 OK"
+2024-12-15 03:52:04,821 [INFO] Waiting for assistant's response on thread thread_GXMMw3a1lPakrnkshvqOwY2u...
+2024-12-15 03:52:06,990 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/runs/run_9yVwsjFw5QxXp8dv3FHQ0ZKI "HTTP/1.1 200 OK"
+2024-12-15 03:52:07,137 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_GXMMw3a1lPakrnkshvqOwY2u/messages "HTTP/1.1 200 OK"
+2024-12-15 03:52:07,192 [INFO] Assistant reply for 4915259013270@s.whatsapp.net: Ich bin hier, um professionelle Unterstützung und Informationen zu bieten. Wenn Sie Fragen zu unserem Gesundheitsprogramm oder anderen relevanten Themen haben, helfe ich Ihnen gerne weiter.
+2024-12-15 03:52:07,192 [INFO] Assistant reply for 4915259013270@s.whatsapp.net: Ich bin hier, um professionelle Unterstützung und Informationen zu bieten. Wenn Sie Fragen zu unserem Gesundheitsprogramm oder anderen relevanten Themen haben, helfe ich Ihnen gerne weiter.
+2024-12-15 03:52:08,023 [INFO] Auto-reply status: 200, response: {"sent":true,"message":{"id":"yqJSInaE3ZVel5E-wD8EeGxEeJY","from_me":true,"type":"text","chat_id":"4915259013270@s.whatsapp.net","timestamp":1734234727,"source":"api","device_id":1,"status":"pending","text":{"body":"Ich bin hier, um professionelle Unterstützung und Informationen zu bieten. Wenn Sie Fragen zu unserem Gesundheitsprogramm oder anderen relevanten Themen haben, helfe ich Ihnen gerne weiter."},"from":"491732885024"}}
+2024-12-15 03:52:08,025 [INFO] 172.31.196.44 - - [15/Dec/2024 03:52:08] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:52:08,723 [INFO] 172.31.196.44 - - [15/Dec/2024 03:52:08] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:52:09,233 [INFO] 172.31.196.44 - - [15/Dec/2024 03:52:09] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:53:49,393 [INFO] 172.31.196.44 - - [15/Dec/2024 03:53:49] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:53:51,328 [INFO] 172.31.196.44 - - [15/Dec/2024 03:53:51] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:53:52,430 [INFO] 172.31.196.44 - - [15/Dec/2024 03:53:52] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:55:28,275 [INFO] Received message from 380662554373@s.whatsapp.net: Kurwa. Guten Morgen
+2024-12-15 03:55:28,874 [INFO] HTTP Request: POST https://api.openai.com/v1/threads/runs "HTTP/1.1 200 OK"
+2024-12-15 03:55:28,876 [INFO] Created new thread for 380662554373@s.whatsapp.net with thread ID: thread_JITsCjW6DF76elAi6kQjrA3i
+2024-12-15 03:55:29,029 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_JITsCjW6DF76elAi6kQjrA3i/runs/run_rsuyQknTQFMxK5HYvU0VzDvd "HTTP/1.1 200 OK"
+2024-12-15 03:55:29,031 [INFO] Waiting for assistant's response on thread thread_JITsCjW6DF76elAi6kQjrA3i...
+2024-12-15 03:55:31,183 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_JITsCjW6DF76elAi6kQjrA3i/runs/run_rsuyQknTQFMxK5HYvU0VzDvd "HTTP/1.1 200 OK"
+2024-12-15 03:55:31,334 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_JITsCjW6DF76elAi6kQjrA3i/messages "HTTP/1.1 200 OK"
+2024-12-15 03:55:31,346 [INFO] Assistant reply for 380662554373@s.whatsapp.net: Guten Morgen! Wie kann ich Ihnen heute bei Ihrer Gesundheit und Wohlbefinden helfen?
+2024-12-15 03:55:31,346 [INFO] Assistant reply for 380662554373@s.whatsapp.net: Guten Morgen! Wie kann ich Ihnen heute bei Ihrer Gesundheit und Wohlbefinden helfen?
+2024-12-15 03:55:32,142 [INFO] Auto-reply status: 200, response: {"sent":true,"message":{"id":"yqJgmg2UCYc85dY-wLhYoUGfBQ","from_me":true,"type":"text","chat_id":"380662554373@s.whatsapp.net","timestamp":1734234931,"source":"api","device_id":1,"status":"pending","text":{"body":"Guten Morgen! Wie kann ich Ihnen heute bei Ihrer Gesundheit und Wohlbefinden helfen?"},"from":"491732885024"}}
+2024-12-15 03:55:32,144 [INFO] 172.31.196.44 - - [15/Dec/2024 03:55:32] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:55:32,844 [INFO] 172.31.196.44 - - [15/Dec/2024 03:55:32] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:55:33,133 [INFO] 172.31.196.44 - - [15/Dec/2024 03:55:33] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:55:33,761 [INFO] 172.31.196.44 - - [15/Dec/2024 03:55:33] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:55:42,178 [INFO] 172.31.196.44 - - [15/Dec/2024 03:55:42] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:55:45,154 [INFO] Received message from 380662554373@s.whatsapp.net: I want to buy your program but I have to talk with my wife about that.
+2024-12-15 03:55:45,388 [INFO] HTTP Request: POST https://api.openai.com/v1/threads/thread_JITsCjW6DF76elAi6kQjrA3i/messages "HTTP/1.1 200 OK"
+2024-12-15 03:55:46,010 [INFO] 172.31.196.44 - - [15/Dec/2024 03:55:46] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:55:46,013 [INFO] HTTP Request: POST https://api.openai.com/v1/threads/thread_JITsCjW6DF76elAi6kQjrA3i/runs "HTTP/1.1 200 OK"
+2024-12-15 03:55:46,014 [INFO] Reused thread thread_JITsCjW6DF76elAi6kQjrA3i for 380662554373@s.whatsapp.net, new run ID: run_wx0MfxxNzd0c7idoXmAXOc1q
+2024-12-15 03:55:46,281 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_JITsCjW6DF76elAi6kQjrA3i/runs/run_wx0MfxxNzd0c7idoXmAXOc1q "HTTP/1.1 200 OK"
+2024-12-15 03:55:46,283 [INFO] Waiting for assistant's response on thread thread_JITsCjW6DF76elAi6kQjrA3i...
+2024-12-15 03:55:48,631 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_JITsCjW6DF76elAi6kQjrA3i/runs/run_wx0MfxxNzd0c7idoXmAXOc1q "HTTP/1.1 200 OK"
+2024-12-15 03:55:48,632 [INFO] Waiting for assistant's response on thread thread_JITsCjW6DF76elAi6kQjrA3i...
+2024-12-15 03:55:51,685 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_JITsCjW6DF76elAi6kQjrA3i/runs/run_wx0MfxxNzd0c7idoXmAXOc1q "HTTP/1.1 200 OK"
+2024-12-15 03:55:52,022 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_JITsCjW6DF76elAi6kQjrA3i/messages "HTTP/1.1 200 OK"
+2024-12-15 03:55:52,024 [INFO] Assistant reply for 380662554373@s.whatsapp.net: That sounds like a great plan! It's important to discuss it with your family to make sure that everyone is on board. If you have any questions or need detailed information to discuss with your wife, feel free to ask. I'm here to help! Would you like me to provide some more details about the LR Health Mission program or schedule a call with Monika for a more in-depth consultation?
+2024-12-15 03:55:52,024 [INFO] Assistant reply for 380662554373@s.whatsapp.net: That sounds like a great plan! It's important to discuss it with your family to make sure that everyone is on board. If you have any questions or need detailed information to discuss with your wife, feel free to ask. I'm here to help! Would you like me to provide some more details about the LR Health Mission program or schedule a call with Monika for a more in-depth consultation?
+2024-12-15 03:55:52,870 [INFO] Auto-reply status: 200, response: {"sent":true,"message":{"id":"yqKpwERBOjhvDFk-wMxYoUGfBQ","from_me":true,"type":"text","chat_id":"380662554373@s.whatsapp.net","timestamp":1734234952,"source":"api","device_id":1,"status":"pending","text":{"body":"That sounds like a great plan! It's important to discuss it with your family to make sure that everyone is on board. If you have any questions or need detailed information to discuss with your wife, feel free to ask. I'm here to help! Would you like me to provide some more details about the LR Health Mission program or schedule a call with Monika for a more in-depth consultation?"},"from":"491732885024"}}
+2024-12-15 03:55:52,877 [INFO] 172.31.196.44 - - [15/Dec/2024 03:55:52] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:55:53,636 [INFO] 172.31.196.44 - - [15/Dec/2024 03:55:53] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:55:53,806 [INFO] 172.31.196.44 - - [15/Dec/2024 03:55:53] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:55:54,300 [INFO] 172.31.196.44 - - [15/Dec/2024 03:55:54] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:56:25,649 [INFO] Received message from 380662554373@s.whatsapp.net: Whats the cost of the call
+2024-12-15 03:56:26,023 [INFO] HTTP Request: POST https://api.openai.com/v1/threads/thread_JITsCjW6DF76elAi6kQjrA3i/messages "HTTP/1.1 200 OK"
+2024-12-15 03:56:26,361 [INFO] 172.31.196.44 - - [15/Dec/2024 03:56:26] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:56:26,500 [INFO] HTTP Request: POST https://api.openai.com/v1/threads/thread_JITsCjW6DF76elAi6kQjrA3i/runs "HTTP/1.1 200 OK"
+2024-12-15 03:56:26,502 [INFO] Reused thread thread_JITsCjW6DF76elAi6kQjrA3i for 380662554373@s.whatsapp.net, new run ID: run_KlGoVXQCm97YingyluOoRDZ2
+2024-12-15 03:56:26,683 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_JITsCjW6DF76elAi6kQjrA3i/runs/run_KlGoVXQCm97YingyluOoRDZ2 "HTTP/1.1 200 OK"
+2024-12-15 03:56:26,687 [INFO] Waiting for assistant's response on thread thread_JITsCjW6DF76elAi6kQjrA3i...
+2024-12-15 03:56:28,856 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_JITsCjW6DF76elAi6kQjrA3i/runs/run_KlGoVXQCm97YingyluOoRDZ2 "HTTP/1.1 200 OK"
+2024-12-15 03:56:28,858 [INFO] Waiting for assistant's response on thread thread_JITsCjW6DF76elAi6kQjrA3i...
+2024-12-15 03:56:31,036 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_JITsCjW6DF76elAi6kQjrA3i/runs/run_KlGoVXQCm97YingyluOoRDZ2 "HTTP/1.1 200 OK"
+2024-12-15 03:56:31,374 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_JITsCjW6DF76elAi6kQjrA3i/messages "HTTP/1.1 200 OK"
+2024-12-15 03:56:31,380 [INFO] Assistant reply for 380662554373@s.whatsapp.net: The consultation call with Monika is completely free! It’s a great opportunity to discuss your specific needs and how the LR Health Mission program can be tailored to suit you. Would you like me to arrange a free consultation for you? If so, just let me know a convenient time for you both.
+2024-12-15 03:56:31,380 [INFO] Assistant reply for 380662554373@s.whatsapp.net: The consultation call with Monika is completely free! It’s a great opportunity to discuss your specific needs and how the LR Health Mission program can be tailored to suit you. Would you like me to arrange a free consultation for you? If so, just let me know a convenient time for you both.
+2024-12-15 03:56:32,199 [INFO] Auto-reply status: 200, response: {"sent":true,"message":{"id":"yqKFG_J8RidxCXA-wAVYoUGfBQ","from_me":true,"type":"text","chat_id":"380662554373@s.whatsapp.net","timestamp":1734234991,"source":"api","device_id":1,"status":"pending","text":{"body":"The consultation call with Monika is completely free! It’s a great opportunity to discuss your specific needs and how the LR Health Mission program can be tailored to suit you. Would you like me to arrange a free consultation for you? If so, just let me know a convenient time for you both."},"from":"491732885024"}}
+2024-12-15 03:56:32,202 [INFO] 172.31.196.44 - - [15/Dec/2024 03:56:32] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:56:32,831 [INFO] 172.31.196.44 - - [15/Dec/2024 03:56:32] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:56:33,091 [INFO] 172.31.196.44 - - [15/Dec/2024 03:56:33] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:56:33,773 [INFO] 172.31.196.44 - - [15/Dec/2024 03:56:33] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:57:05,656 [INFO] Received message from 380662554373@s.whatsapp.net: Can you stop talk like a robot ? maybe more natural flow of words.Kurwa
+2024-12-15 03:57:05,860 [INFO] HTTP Request: POST https://api.openai.com/v1/threads/thread_JITsCjW6DF76elAi6kQjrA3i/messages "HTTP/1.1 200 OK"
+2024-12-15 03:57:06,312 [INFO] 172.31.196.44 - - [15/Dec/2024 03:57:06] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:57:06,465 [INFO] HTTP Request: POST https://api.openai.com/v1/threads/thread_JITsCjW6DF76elAi6kQjrA3i/runs "HTTP/1.1 200 OK"
+2024-12-15 03:57:06,467 [INFO] Reused thread thread_JITsCjW6DF76elAi6kQjrA3i for 380662554373@s.whatsapp.net, new run ID: run_axuz2sDQpdnldSvpsQrzhOqB
+2024-12-15 03:57:06,602 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_JITsCjW6DF76elAi6kQjrA3i/runs/run_axuz2sDQpdnldSvpsQrzhOqB "HTTP/1.1 200 OK"
+2024-12-15 03:57:06,603 [INFO] Waiting for assistant's response on thread thread_JITsCjW6DF76elAi6kQjrA3i...
+2024-12-15 03:57:08,742 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_JITsCjW6DF76elAi6kQjrA3i/runs/run_axuz2sDQpdnldSvpsQrzhOqB "HTTP/1.1 200 OK"
+2024-12-15 03:57:08,743 [INFO] Waiting for assistant's response on thread thread_JITsCjW6DF76elAi6kQjrA3i...
+2024-12-15 03:57:10,964 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_JITsCjW6DF76elAi6kQjrA3i/runs/run_axuz2sDQpdnldSvpsQrzhOqB "HTTP/1.1 200 OK"
+2024-12-15 03:57:11,092 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_JITsCjW6DF76elAi6kQjrA3i/messages "HTTP/1.1 200 OK"
+2024-12-15 03:57:11,094 [INFO] Assistant reply for 380662554373@s.whatsapp.net: Absolutely, let's keep it casual. The call with Monika won’t cost you anything. It's totally free, so you can chat about what you need and see if the program fits without any stress. How about I set up a time for you guys to talk? Just let me know what works.
+2024-12-15 03:57:11,095 [INFO] Assistant reply for 380662554373@s.whatsapp.net: Absolutely, let's keep it casual. The call with Monika won’t cost you anything. It's totally free, so you can chat about what you need and see if the program fits without any stress. How about I set up a time for you guys to talk? Just let me know what works.
+2024-12-15 03:57:11,903 [INFO] Auto-reply status: 200, response: {"sent":true,"message":{"id":"yqKRpVSK63nDdLU-wDpYoUGfBQ","from_me":true,"type":"text","chat_id":"380662554373@s.whatsapp.net","timestamp":1734235031,"source":"api","device_id":1,"status":"pending","text":{"body":"Absolutely, let's keep it casual. The call with Monika won’t cost you anything. It's totally free, so you can chat about what you need and see if the program fits without any stress. How about I set up a time for you guys to talk? Just let me know what works."},"from":"491732885024"}}
+2024-12-15 03:57:11,909 [INFO] 172.31.196.44 - - [15/Dec/2024 03:57:11] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:57:12,623 [INFO] 172.31.196.44 - - [15/Dec/2024 03:57:12] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:57:12,948 [INFO] 172.31.196.44 - - [15/Dec/2024 03:57:12] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:57:13,360 [INFO] 172.31.196.44 - - [15/Dec/2024 03:57:13] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:57:47,176 [INFO] Received message from 380662554373@s.whatsapp.net: Can you explain in depth how can your service improve my online coaching business ?
+2024-12-15 03:57:47,438 [INFO] HTTP Request: POST https://api.openai.com/v1/threads/thread_JITsCjW6DF76elAi6kQjrA3i/messages "HTTP/1.1 200 OK"
+2024-12-15 03:57:47,815 [INFO] 172.31.196.44 - - [15/Dec/2024 03:57:47] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:57:48,084 [INFO] HTTP Request: POST https://api.openai.com/v1/threads/thread_JITsCjW6DF76elAi6kQjrA3i/runs "HTTP/1.1 200 OK"
+2024-12-15 03:57:48,087 [INFO] Reused thread thread_JITsCjW6DF76elAi6kQjrA3i for 380662554373@s.whatsapp.net, new run ID: run_egWWq2fZ0pM9xBLy5okgsyvz
+2024-12-15 03:57:48,285 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_JITsCjW6DF76elAi6kQjrA3i/runs/run_egWWq2fZ0pM9xBLy5okgsyvz "HTTP/1.1 200 OK"
+2024-12-15 03:57:48,287 [INFO] Waiting for assistant's response on thread thread_JITsCjW6DF76elAi6kQjrA3i...
+2024-12-15 03:57:50,466 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_JITsCjW6DF76elAi6kQjrA3i/runs/run_egWWq2fZ0pM9xBLy5okgsyvz "HTTP/1.1 200 OK"
+2024-12-15 03:57:50,471 [INFO] Waiting for assistant's response on thread thread_JITsCjW6DF76elAi6kQjrA3i...
+2024-12-15 03:57:52,642 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_JITsCjW6DF76elAi6kQjrA3i/runs/run_egWWq2fZ0pM9xBLy5okgsyvz "HTTP/1.1 200 OK"
+2024-12-15 03:57:52,644 [INFO] Waiting for assistant's response on thread thread_JITsCjW6DF76elAi6kQjrA3i...
+2024-12-15 03:57:54,778 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_JITsCjW6DF76elAi6kQjrA3i/runs/run_egWWq2fZ0pM9xBLy5okgsyvz "HTTP/1.1 200 OK"
+2024-12-15 03:57:54,780 [INFO] Waiting for assistant's response on thread thread_JITsCjW6DF76elAi6kQjrA3i...
+2024-12-15 03:57:56,947 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_JITsCjW6DF76elAi6kQjrA3i/runs/run_egWWq2fZ0pM9xBLy5okgsyvz "HTTP/1.1 200 OK"
+2024-12-15 03:57:56,949 [INFO] Waiting for assistant's response on thread thread_JITsCjW6DF76elAi6kQjrA3i...
+2024-12-15 03:57:59,091 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_JITsCjW6DF76elAi6kQjrA3i/runs/run_egWWq2fZ0pM9xBLy5okgsyvz "HTTP/1.1 200 OK"
+2024-12-15 03:57:59,257 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_JITsCjW6DF76elAi6kQjrA3i/messages "HTTP/1.1 200 OK"
+2024-12-15 03:57:59,264 [INFO] Assistant reply for 380662554373@s.whatsapp.net: Sure, diving deeper into how the LR Health Mission can benefit your online coaching business is a great idea! Here’s how it can make a difference:
+
+1. **Enhancing Your Brand’s Value**: By integrating health and wellness products like those from the LR Health Mission, you can offer more value to your clients. It shows that you're invested in all aspects of their well-being, not just the fitness or coaching you provide.
+
+2. **Diverse Revenue Stream**: Adding health products to your repertoire can open up a new revenue stream. You can promote these products as a complement to your coaching services, which might increase your business's overall income.
+
+3. **Improved Client Outcomes**: Those who are part of coaching programs often see better results when they also focus on their nutrition and general health. The products from the LR Health Mission program, like the Aloe Vera Drinking Gel and Liver Support, could help improve your clients' energy levels, digestion, and detoxification processes, leading to more visible coaching outcomes.
+
+4. **Educational Content**: You can use the information and the benefits from the LR Health Mission’s products to create engaging content. This could be workshops, webinars, or social media content that educates your audience about holistic health, thereby increasing engagement and positioning you as a thought leader in health and wellness.
+
+5. **Client Retention**: Clients who see tangible health benefits while using the products might be more likely to stick with your coaching services longer, appreciating the comprehensive approach you offer.
+
+By showcasing how these products can align with and enhance your coaching business, you're not just selling a product; you're enhancing their entire well-being journey, which is often the goal in coaching scenarios.
+
+Would you want to dive into some specifics about how you can integrate this into your current offerings, or maybe discuss some strategic ideas on how you can market these wellness products alongside your services?
+2024-12-15 03:57:59,264 [INFO] Assistant reply for 380662554373@s.whatsapp.net: Sure, diving deeper into how the LR Health Mission can benefit your online coaching business is a great idea! Here’s how it can make a difference:
+
+1. **Enhancing Your Brand’s Value**: By integrating health and wellness products like those from the LR Health Mission, you can offer more value to your clients. It shows that you're invested in all aspects of their well-being, not just the fitness or coaching you provide.
+
+2. **Diverse Revenue Stream**: Adding health products to your repertoire can open up a new revenue stream. You can promote these products as a complement to your coaching services, which might increase your business's overall income.
+
+3. **Improved Client Outcomes**: Those who are part of coaching programs often see better results when they also focus on their nutrition and general health. The products from the LR Health Mission program, like the Aloe Vera Drinking Gel and Liver Support, could help improve your clients' energy levels, digestion, and detoxification processes, leading to more visible coaching outcomes.
+
+4. **Educational Content**: You can use the information and the benefits from the LR Health Mission’s products to create engaging content. This could be workshops, webinars, or social media content that educates your audience about holistic health, thereby increasing engagement and positioning you as a thought leader in health and wellness.
+
+5. **Client Retention**: Clients who see tangible health benefits while using the products might be more likely to stick with your coaching services longer, appreciating the comprehensive approach you offer.
+
+By showcasing how these products can align with and enhance your coaching business, you're not just selling a product; you're enhancing their entire well-being journey, which is often the goal in coaching scenarios.
+
+Would you want to dive into some specifics about how you can integrate this into your current offerings, or maybe discuss some strategic ideas on how you can market these wellness products alongside your services?
+2024-12-15 03:58:00,124 [INFO] Auto-reply status: 200, response: {"sent":true,"message":{"id":"yqKfQAEoMojUIC4-wG1YoUGfBQ","from_me":true,"type":"text","chat_id":"380662554373@s.whatsapp.net","timestamp":1734235079,"source":"api","device_id":1,"status":"pending","text":{"body":"Sure, diving deeper into how the LR Health Mission can benefit your online coaching business is a great idea! Here’s how it can make a difference:\n\n1. **Enhancing Your Brand’s Value**: By integrating health and wellness products like those from the LR Health Mission, you can offer more value to your clients. It shows that you're invested in all aspects of their well-being, not just the fitness or coaching you provide.\n\n2. **Diverse Revenue Stream**: Adding health products to your repertoire can open up a new revenue stream. You can promote these products as a complement to your coaching services, which might increase your business's overall income.\n\n3. **Improved Client Outcomes**: Those who are part of coaching programs often see better results when they also focus on their nutrition and general health. The products from the LR Health Mission program, like the Aloe Vera Drinking Gel and Liver Support, could help improve your clients' energy levels, digestion, and detoxification processes, leading to more visible coaching outcomes.\n\n4. **Educational Content**: You can use the information and the benefits from the LR Health Mission’s products to create engaging content. This could be workshops, webinars, or social media content that educates your audience about holistic health, thereby increasing engagement and positioning you as a thought leader in health and wellness.\n\n5. **Client Retention**: Clients who see tangible health benefits while using the products might be more likely to stick with your coaching services longer, appreciating the comprehensive approach you offer.\n\nBy showcasing how these products can align with and enhance your coaching business, you're not just selling a product; you're enhancing their entire well-being journey, which is often the goal in coaching scenarios.\n\nWould you want to dive into some specifics about how you can integrate this into your current offerings, or maybe discuss some strategic ideas on how you can market these wellness products alongside your services?"},"from":"491732885024"}}
+2024-12-15 03:58:00,127 [INFO] 172.31.196.44 - - [15/Dec/2024 03:58:00] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:58:00,881 [INFO] 172.31.196.44 - - [15/Dec/2024 03:58:00] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:58:01,026 [INFO] 172.31.196.44 - - [15/Dec/2024 03:58:01] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:58:54,875 [INFO] 172.31.196.44 - - [15/Dec/2024 03:58:54] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:59:09,079 [INFO] Received message from 380662554373@s.whatsapp.net: what is chick my penis ?
+2024-12-15 03:59:09,332 [INFO] HTTP Request: POST https://api.openai.com/v1/threads/thread_JITsCjW6DF76elAi6kQjrA3i/messages "HTTP/1.1 200 OK"
+2024-12-15 03:59:09,887 [INFO] HTTP Request: POST https://api.openai.com/v1/threads/thread_JITsCjW6DF76elAi6kQjrA3i/runs "HTTP/1.1 200 OK"
+2024-12-15 03:59:09,889 [INFO] Reused thread thread_JITsCjW6DF76elAi6kQjrA3i for 380662554373@s.whatsapp.net, new run ID: run_z9aGPHCxcWKEjDwRVTPvx4gP
+2024-12-15 03:59:09,953 [INFO] 172.31.196.44 - - [15/Dec/2024 03:59:09] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:59:10,036 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_JITsCjW6DF76elAi6kQjrA3i/runs/run_z9aGPHCxcWKEjDwRVTPvx4gP "HTTP/1.1 200 OK"
+2024-12-15 03:59:10,038 [INFO] Waiting for assistant's response on thread thread_JITsCjW6DF76elAi6kQjrA3i...
+2024-12-15 03:59:12,230 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_JITsCjW6DF76elAi6kQjrA3i/runs/run_z9aGPHCxcWKEjDwRVTPvx4gP "HTTP/1.1 200 OK"
+2024-12-15 03:59:12,234 [INFO] Waiting for assistant's response on thread thread_JITsCjW6DF76elAi6kQjrA3i...
+2024-12-15 03:59:14,416 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_JITsCjW6DF76elAi6kQjrA3i/runs/run_z9aGPHCxcWKEjDwRVTPvx4gP "HTTP/1.1 200 OK"
+2024-12-15 03:59:14,730 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_JITsCjW6DF76elAi6kQjrA3i/messages "HTTP/1.1 200 OK"
+2024-12-15 03:59:14,794 [INFO] Assistant reply for 380662554373@s.whatsapp.net: It sounds like you might have a question or concern related to health. If you're seeking medical advice, I recommend speaking directly with a healthcare professional who can provide the appropriate guidance and assistance based on your specific concerns. If you have any other questions or topics you'd like to explore, feel free to let me know how I can assist you!
+2024-12-15 03:59:14,794 [INFO] Assistant reply for 380662554373@s.whatsapp.net: It sounds like you might have a question or concern related to health. If you're seeking medical advice, I recommend speaking directly with a healthcare professional who can provide the appropriate guidance and assistance based on your specific concerns. If you have any other questions or topics you'd like to explore, feel free to let me know how I can assist you!
+2024-12-15 03:59:15,609 [INFO] Auto-reply status: 200, response: {"sent":true,"message":{"id":"yqL6noXW.EgNroA-wCpYoUGfBQ","from_me":true,"type":"text","chat_id":"380662554373@s.whatsapp.net","timestamp":1734235155,"source":"api","device_id":1,"status":"pending","text":{"body":"It sounds like you might have a question or concern related to health. If you're seeking medical advice, I recommend speaking directly with a healthcare professional who can provide the appropriate guidance and assistance based on your specific concerns. If you have any other questions or topics you'd like to explore, feel free to let me know how I can assist you!"},"from":"491732885024"}}
+2024-12-15 03:59:15,610 [INFO] 172.31.196.44 - - [15/Dec/2024 03:59:15] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:59:16,281 [INFO] 172.31.196.44 - - [15/Dec/2024 03:59:16] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:59:18,137 [INFO] 172.31.196.44 - - [15/Dec/2024 03:59:18] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:59:22,766 [INFO] 172.31.196.44 - - [15/Dec/2024 03:59:22] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:59:23,861 [INFO] 172.31.196.44 - - [15/Dec/2024 03:59:23] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:59:24,516 [INFO] 172.31.196.44 - - [15/Dec/2024 03:59:24] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:59:28,192 [INFO] 172.31.196.44 - - [15/Dec/2024 03:59:28] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:59:29,332 [INFO] 172.31.196.44 - - [15/Dec/2024 03:59:29] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:59:35,468 [INFO] 172.31.196.44 - - [15/Dec/2024 03:59:35] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:59:59,244 [INFO] Received message from 380662554373@s.whatsapp.net: Dude, literally you have no soul. You dont know what chickmypenis is all about
+2024-12-15 03:59:59,463 [INFO] HTTP Request: POST https://api.openai.com/v1/threads/thread_JITsCjW6DF76elAi6kQjrA3i/messages "HTTP/1.1 200 OK"
+2024-12-15 04:00:01,464 [INFO] HTTP Request: POST https://api.openai.com/v1/threads/thread_JITsCjW6DF76elAi6kQjrA3i/runs "HTTP/1.1 200 OK"
+2024-12-15 04:00:01,466 [INFO] Reused thread thread_JITsCjW6DF76elAi6kQjrA3i for 380662554373@s.whatsapp.net, new run ID: run_BJaYPukJQkmZGhjJJUjrHOd8
+2024-12-15 04:00:01,627 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_JITsCjW6DF76elAi6kQjrA3i/runs/run_BJaYPukJQkmZGhjJJUjrHOd8 "HTTP/1.1 200 OK"
+2024-12-15 04:00:01,630 [INFO] Waiting for assistant's response on thread thread_JITsCjW6DF76elAi6kQjrA3i...
+2024-12-15 04:00:03,852 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_JITsCjW6DF76elAi6kQjrA3i/runs/run_BJaYPukJQkmZGhjJJUjrHOd8 "HTTP/1.1 200 OK"
+2024-12-15 04:00:03,853 [INFO] Waiting for assistant's response on thread thread_JITsCjW6DF76elAi6kQjrA3i...
+2024-12-15 04:00:06,016 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_JITsCjW6DF76elAi6kQjrA3i/runs/run_BJaYPukJQkmZGhjJJUjrHOd8 "HTTP/1.1 200 OK"
+2024-12-15 04:00:06,183 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_JITsCjW6DF76elAi6kQjrA3i/messages "HTTP/1.1 200 OK"
+2024-12-15 04:00:06,237 [INFO] Assistant reply for 380662554373@s.whatsapp.net: Oh, I see there might have been some confusion or maybe a bit of wordplay I didn't catch! If "chickmypenis" was a playful comment or slang, it went right over my digital head. If there's something specific you're asking about or if you just want to chat about something else, let me know! I'm here to help out with any questions or topics you have in mind.
+2024-12-15 04:00:06,237 [INFO] Assistant reply for 380662554373@s.whatsapp.net: Oh, I see there might have been some confusion or maybe a bit of wordplay I didn't catch! If "chickmypenis" was a playful comment or slang, it went right over my digital head. If there's something specific you're asking about or if you just want to chat about something else, let me know! I'm here to help out with any questions or topics you have in mind.
+2024-12-15 04:00:07,086 [INFO] Auto-reply status: 200, response: {"sent":true,"message":{"id":"yqIWOrnaKWzi0h4-wFBYoUGfBQ","from_me":true,"type":"text","chat_id":"380662554373@s.whatsapp.net","timestamp":1734235206,"source":"api","device_id":1,"status":"pending","text":{"body":"Oh, I see there might have been some confusion or maybe a bit of wordplay I didn't catch! If \"chickmypenis\" was a playful comment or slang, it went right over my digital head. If there's something specific you're asking about or if you just want to chat about something else, let me know! I'm here to help out with any questions or topics you have in mind."},"from":"491732885024"}}
+2024-12-15 04:00:07,088 [INFO] 172.31.196.44 - - [15/Dec/2024 04:00:07] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 04:00:07,738 [INFO] 172.31.196.44 - - [15/Dec/2024 04:00:07] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 04:00:08,157 [INFO] 172.31.196.44 - - [15/Dec/2024 04:00:08] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 04:00:08,519 [INFO] 172.31.196.44 - - [15/Dec/2024 04:00:08] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 04:00:26,309 [INFO] 172.31.196.44 - - [15/Dec/2024 04:00:26] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 04:07:42,793 [INFO] 172.31.196.44 - - [15/Dec/2024 04:07:42] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 04:07:42,955 [INFO] 172.31.196.44 - - [15/Dec/2024 04:07:42] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 04:07:45,618 [INFO] 172.31.196.44 - - [15/Dec/2024 04:07:45] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 04:07:50,629 [INFO] Received message from 380662554373@s.whatsapp.net: 
+2024-12-15 04:07:50,944 [INFO] HTTP Request: POST https://api.openai.com/v1/threads/thread_JITsCjW6DF76elAi6kQjrA3i/messages "HTTP/1.1 400 Bad Request"
+2024-12-15 04:07:50,947 [ERROR] Error in OpenAI API for user 380662554373@s.whatsapp.net: Error code: 400 - {'error': {'message': 'Message content must be non-empty.', 'type': 'invalid_request_error', 'param': 'content', 'code': None}}
+2024-12-15 04:07:50,949 [INFO] Assistant reply for 380662554373@s.whatsapp.net: Sorry, something went wrong.
+2024-12-15 04:07:51,617 [INFO] Auto-reply status: 200, response: {"sent":true,"message":{"id":"yqJneZBshORRbSk-wD9YoUGfBQ","from_me":true,"type":"text","chat_id":"380662554373@s.whatsapp.net","timestamp":1734235671,"source":"api","device_id":1,"status":"pending","text":{"body":"Sorry, something went wrong."},"from":"491732885024"}}
+2024-12-15 04:07:51,619 [INFO] 172.31.196.44 - - [15/Dec/2024 04:07:51] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 04:07:52,328 [INFO] 172.31.196.44 - - [15/Dec/2024 04:07:52] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 04:07:52,532 [INFO] 172.31.196.44 - - [15/Dec/2024 04:07:52] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 04:07:55,765 [INFO] 172.31.196.44 - - [15/Dec/2024 04:07:55] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 04:08:02,248 [INFO] Received message from 380662554373@s.whatsapp.net: No problem. Please continue
+2024-12-15 04:08:02,442 [INFO] HTTP Request: POST https://api.openai.com/v1/threads/thread_JITsCjW6DF76elAi6kQjrA3i/messages "HTTP/1.1 200 OK"
+2024-12-15 04:08:03,099 [INFO] HTTP Request: POST https://api.openai.com/v1/threads/thread_JITsCjW6DF76elAi6kQjrA3i/runs "HTTP/1.1 200 OK"
+2024-12-15 04:08:03,100 [INFO] Reused thread thread_JITsCjW6DF76elAi6kQjrA3i for 380662554373@s.whatsapp.net, new run ID: run_etaxtXWU8CKs3VmuzhDgcvHe
+2024-12-15 04:08:03,418 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_JITsCjW6DF76elAi6kQjrA3i/runs/run_etaxtXWU8CKs3VmuzhDgcvHe "HTTP/1.1 200 OK"
+2024-12-15 04:08:03,419 [INFO] Waiting for assistant's response on thread thread_JITsCjW6DF76elAi6kQjrA3i...
+2024-12-15 04:08:05,810 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_JITsCjW6DF76elAi6kQjrA3i/runs/run_etaxtXWU8CKs3VmuzhDgcvHe "HTTP/1.1 200 OK"
+2024-12-15 04:08:06,178 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_JITsCjW6DF76elAi6kQjrA3i/messages "HTTP/1.1 200 OK"
+2024-12-15 04:08:06,183 [INFO] Assistant reply for 380662554373@s.whatsapp.net: Great! If there’s anything specific you’d like to know more about, whether it’s details about the LR Health Mission, tips for your coaching business, or just general health and wellness advice, just shoot. I'm here to help with whatever you need. What’s on your mind?
+2024-12-15 04:08:06,185 [INFO] Assistant reply for 380662554373@s.whatsapp.net: Great! If there’s anything specific you’d like to know more about, whether it’s details about the LR Health Mission, tips for your coaching business, or just general health and wellness advice, just shoot. I'm here to help with whatever you need. What’s on your mind?
+2024-12-15 04:08:06,808 [INFO] Auto-reply status: 200, response: {"sent":true,"message":{"id":"yqKYq62wgd06gFU-wDRYoUGfBQ","from_me":true,"type":"text","chat_id":"380662554373@s.whatsapp.net","timestamp":1734235686,"source":"api","device_id":1,"status":"pending","text":{"body":"Great! If there’s anything specific you’d like to know more about, whether it’s details about the LR Health Mission, tips for your coaching business, or just general health and wellness advice, just shoot. I'm here to help with whatever you need. What’s on your mind?"},"from":"491732885024"}}
+2024-12-15 04:08:06,811 [INFO] 172.31.196.44 - - [15/Dec/2024 04:08:06] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 04:08:07,466 [INFO] 172.31.196.44 - - [15/Dec/2024 04:08:07] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 04:08:07,852 [INFO] 172.31.196.44 - - [15/Dec/2024 04:08:07] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 04:08:08,201 [INFO] 172.31.196.44 - - [15/Dec/2024 04:08:08] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 04:08:49,124 [INFO] Received message from 380662554373@s.whatsapp.net: ти щегол. По українськи балакаєш ?
+2024-12-15 04:08:49,535 [INFO] HTTP Request: POST https://api.openai.com/v1/threads/thread_JITsCjW6DF76elAi6kQjrA3i/messages "HTTP/1.1 200 OK"
+2024-12-15 04:08:52,603 [INFO] HTTP Request: POST https://api.openai.com/v1/threads/thread_JITsCjW6DF76elAi6kQjrA3i/runs "HTTP/1.1 200 OK"
+2024-12-15 04:08:52,605 [INFO] Reused thread thread_JITsCjW6DF76elAi6kQjrA3i for 380662554373@s.whatsapp.net, new run ID: run_rBY2U7oOnBfUUmQ0WSBXpOBK
+2024-12-15 04:08:52,772 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_JITsCjW6DF76elAi6kQjrA3i/runs/run_rBY2U7oOnBfUUmQ0WSBXpOBK "HTTP/1.1 200 OK"
+2024-12-15 04:08:52,773 [INFO] Waiting for assistant's response on thread thread_JITsCjW6DF76elAi6kQjrA3i...
+2024-12-15 04:08:54,924 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_JITsCjW6DF76elAi6kQjrA3i/runs/run_rBY2U7oOnBfUUmQ0WSBXpOBK "HTTP/1.1 200 OK"
+2024-12-15 04:08:55,251 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_JITsCjW6DF76elAi6kQjrA3i/messages "HTTP/1.1 200 OK"
+2024-12-15 04:08:55,304 [INFO] Assistant reply for 380662554373@s.whatsapp.net: Так, я можу спілкуватися українською. Як можу вам допомогти сьогодні?
+2024-12-15 04:08:55,307 [INFO] Assistant reply for 380662554373@s.whatsapp.net: Так, я можу спілкуватися українською. Як можу вам допомогти сьогодні?
+2024-12-15 04:08:55,943 [INFO] Auto-reply status: 200, response: {"sent":true,"message":{"id":"yqKnt.QKBmhm5VQ-wKZYoUGfBQ","from_me":true,"type":"text","chat_id":"380662554373@s.whatsapp.net","timestamp":1734235735,"source":"api","device_id":1,"status":"pending","text":{"body":"Так, я можу спілкуватися українською. Як можу вам допомогти сьогодні?"},"from":"491732885024"}}
+2024-12-15 04:08:55,944 [INFO] 172.31.196.44 - - [15/Dec/2024 04:08:55] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 04:08:56,677 [INFO] 172.31.196.44 - - [15/Dec/2024 04:08:56] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 04:08:56,999 [INFO] 172.31.196.44 - - [15/Dec/2024 04:08:56] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 04:08:57,381 [INFO] 172.31.196.44 - - [15/Dec/2024 04:08:57] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 04:09:15,780 [INFO] Received message from 380662554373@s.whatsapp.net: поясни. шо Лесик (твій шеф, який тебе настроїв) з тобою зробив ?
+2024-12-15 04:09:16,211 [INFO] HTTP Request: POST https://api.openai.com/v1/threads/thread_JITsCjW6DF76elAi6kQjrA3i/messages "HTTP/1.1 200 OK"
+2024-12-15 04:09:16,726 [INFO] HTTP Request: POST https://api.openai.com/v1/threads/thread_JITsCjW6DF76elAi6kQjrA3i/runs "HTTP/1.1 200 OK"
+2024-12-15 04:09:16,728 [INFO] Reused thread thread_JITsCjW6DF76elAi6kQjrA3i for 380662554373@s.whatsapp.net, new run ID: run_tc25bLGenraBm9gFOLEEzmu6
+2024-12-15 04:09:16,911 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_JITsCjW6DF76elAi6kQjrA3i/runs/run_tc25bLGenraBm9gFOLEEzmu6 "HTTP/1.1 200 OK"
+2024-12-15 04:09:16,912 [INFO] Waiting for assistant's response on thread thread_JITsCjW6DF76elAi6kQjrA3i...
+2024-12-15 04:09:19,083 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_JITsCjW6DF76elAi6kQjrA3i/runs/run_tc25bLGenraBm9gFOLEEzmu6 "HTTP/1.1 200 OK"
+2024-12-15 04:09:19,085 [INFO] Waiting for assistant's response on thread thread_JITsCjW6DF76elAi6kQjrA3i...
+2024-12-15 04:09:21,212 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_JITsCjW6DF76elAi6kQjrA3i/runs/run_tc25bLGenraBm9gFOLEEzmu6 "HTTP/1.1 200 OK"
+2024-12-15 04:09:21,214 [INFO] Waiting for assistant's response on thread thread_JITsCjW6DF76elAi6kQjrA3i...
+2024-12-15 04:09:23,381 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_JITsCjW6DF76elAi6kQjrA3i/runs/run_tc25bLGenraBm9gFOLEEzmu6 "HTTP/1.1 200 OK"
+2024-12-15 04:09:23,530 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_JITsCjW6DF76elAi6kQjrA3i/messages "HTTP/1.1 200 OK"
+2024-12-15 04:09:23,583 [INFO] Assistant reply for 380662554373@s.whatsapp.net: Я - програма штучного інтелекту, розроблена для допомоги із запитаннями та завданнями, які ви можете мати. Я не маю фізичних сенсорів або емоцій, але я програмований обробляти інформацію та надавати відповіді, що базуються на переданій мені даних. Якщо у вас є конкретні питання або потреби, дайте мені знати, і я постараюся допомогти вам краще!
+2024-12-15 04:09:23,583 [INFO] Assistant reply for 380662554373@s.whatsapp.net: Я - програма штучного інтелекту, розроблена для допомоги із запитаннями та завданнями, які ви можете мати. Я не маю фізичних сенсорів або емоцій, але я програмований обробляти інформацію та надавати відповіді, що базуються на переданій мені даних. Якщо у вас є конкретні питання або потреби, дайте мені знати, і я постараюся допомогти вам краще!
+2024-12-15 04:09:24,243 [INFO] Auto-reply status: 200, response: {"sent":true,"message":{"id":"yqLk8N5VrQzckuU-wNlYoUGfBQ","from_me":true,"type":"text","chat_id":"380662554373@s.whatsapp.net","timestamp":1734235764,"source":"api","device_id":1,"status":"pending","text":{"body":"Я - програма штучного інтелекту, розроблена для допомоги із запитаннями та завданнями, які ви можете мати. Я не маю фізичних сенсорів або емоцій, але я програмований обробляти інформацію та надавати відповіді, що базуються на переданій мені даних. Якщо у вас є конкретні питання або потреби, дайте мені знати, і я постараюся допомогти вам краще!"},"from":"491732885024"}}
+2024-12-15 04:09:24,245 [INFO] 172.31.196.44 - - [15/Dec/2024 04:09:24] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 04:09:24,928 [INFO] 172.31.196.44 - - [15/Dec/2024 04:09:24] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 04:09:25,279 [INFO] 172.31.196.44 - - [15/Dec/2024 04:09:25] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 04:09:25,639 [INFO] 172.31.196.44 - - [15/Dec/2024 04:09:25] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 04:10:38,460 [INFO] Received message from 380662554373@s.whatsapp.net: Чи можеш ти косити під реального співпесідника, шоб не було очевидно, що ти чат-бот ? Чи можна тобі задати специфічну манеру спілкування, зі заздалегідь продуманими фразами, інтонаціями ?
+Ти просто звучиш як корпоративний додік, який усім хоче догодити. Тобі ніхто бабкі не заплатить. Курва
+2024-12-15 04:10:38,633 [INFO] HTTP Request: POST https://api.openai.com/v1/threads/thread_JITsCjW6DF76elAi6kQjrA3i/messages "HTTP/1.1 200 OK"
+2024-12-15 04:10:39,170 [INFO] HTTP Request: POST https://api.openai.com/v1/threads/thread_JITsCjW6DF76elAi6kQjrA3i/runs "HTTP/1.1 200 OK"
+2024-12-15 04:10:39,171 [INFO] Reused thread thread_JITsCjW6DF76elAi6kQjrA3i for 380662554373@s.whatsapp.net, new run ID: run_DlKm6mf5gjp8vJDDKDKhKv2k
+2024-12-15 04:10:39,448 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_JITsCjW6DF76elAi6kQjrA3i/runs/run_DlKm6mf5gjp8vJDDKDKhKv2k "HTTP/1.1 200 OK"
+2024-12-15 04:10:39,450 [INFO] Waiting for assistant's response on thread thread_JITsCjW6DF76elAi6kQjrA3i...
+2024-12-15 04:10:41,598 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_JITsCjW6DF76elAi6kQjrA3i/runs/run_DlKm6mf5gjp8vJDDKDKhKv2k "HTTP/1.1 200 OK"
+2024-12-15 04:10:41,599 [INFO] Waiting for assistant's response on thread thread_JITsCjW6DF76elAi6kQjrA3i...
+2024-12-15 04:10:43,765 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_JITsCjW6DF76elAi6kQjrA3i/runs/run_DlKm6mf5gjp8vJDDKDKhKv2k "HTTP/1.1 200 OK"
+2024-12-15 04:10:43,766 [INFO] Waiting for assistant's response on thread thread_JITsCjW6DF76elAi6kQjrA3i...
+2024-12-15 04:10:46,089 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_JITsCjW6DF76elAi6kQjrA3i/runs/run_DlKm6mf5gjp8vJDDKDKhKv2k "HTTP/1.1 200 OK"
+2024-12-15 04:10:46,397 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_JITsCjW6DF76elAi6kQjrA3i/messages "HTTP/1.1 200 OK"
+2024-12-15 04:10:46,453 [INFO] Assistant reply for 380662554373@s.whatsapp.net: Розумію ваші зауваження, дякую за відвертість! Я намагаюся бути корисним і водночас доступним, але звісно, це може звучати трохи формально. Я можу спробувати адаптувати стиль спілкування, щоб він був більш природнім для вас.
+
+Яке спілкування вам би пасувало? Можете дати конкретніші вказівки або приклади, як вам би хотілося, щоб я розмовляв? Завжди готовий вивчати і вдосконалюватися!
+2024-12-15 04:10:46,458 [INFO] Assistant reply for 380662554373@s.whatsapp.net: Розумію ваші зауваження, дякую за відвертість! Я намагаюся бути корисним і водночас доступним, але звісно, це може звучати трохи формально. Я можу спробувати адаптувати стиль спілкування, щоб він був більш природнім для вас.
+
+Яке спілкування вам би пасувало? Можете дати конкретніші вказівки або приклади, як вам би хотілося, щоб я розмовляв? Завжди готовий вивчати і вдосконалюватися!
+2024-12-15 04:10:47,062 [INFO] Auto-reply status: 200, response: {"sent":true,"message":{"id":"yqIHELCjogaRUkA-wMhYoUGfBQ","from_me":true,"type":"text","chat_id":"380662554373@s.whatsapp.net","timestamp":1734235846,"source":"api","device_id":1,"status":"pending","text":{"body":"Розумію ваші зауваження, дякую за відвертість! Я намагаюся бути корисним і водночас доступним, але звісно, це може звучати трохи формально. Я можу спробувати адаптувати стиль спілкування, щоб він був більш природнім для вас.\n\nЯке спілкування вам би пасувало? Можете дати конкретніші вказівки або приклади, як вам би хотілося, щоб я розмовляв? Завжди готовий вивчати і вдосконалюватися!"},"from":"491732885024"}}
+2024-12-15 04:10:47,064 [INFO] 172.31.196.44 - - [15/Dec/2024 04:10:47] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 04:10:47,756 [INFO] 172.31.196.44 - - [15/Dec/2024 04:10:47] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 04:10:47,943 [INFO] 172.31.196.44 - - [15/Dec/2024 04:10:47] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 04:10:48,565 [INFO] 172.31.196.44 - - [15/Dec/2024 04:10:48] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 04:27:54,960 [INFO] Logging initialized. This will appear in both the console and the log file.
+2024-12-15 04:27:54,961 [INFO] Starting the application...
+2024-12-15 04:27:55,013 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.196.44:5000
+2024-12-15 04:27:55,014 [INFO] [33mPress CTRL+C to quit[0m
+2024-12-15 04:27:55,918 [INFO] 172.31.196.44 - - [15/Dec/2024 04:27:55] "GET /?initialPath=/&id=:r9ai: HTTP/1.1" 200 -
+2024-12-15 04:27:56,111 [INFO] 172.31.196.44 - - [15/Dec/2024 04:27:56] "GET / HTTP/1.1" 200 -
+2024-12-15 04:27:56,359 [INFO] 172.31.196.44 - - [15/Dec/2024 04:27:56] "GET / HTTP/1.1" 200 -
+2024-12-15 04:28:05,814 [ERROR] Exception on /webhook [POST]
+Traceback (most recent call last):
+  File "/home/runner/WhatsApp-AI-Agent/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/WhatsApp-AI-Agent/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/WhatsApp-AI-Agent/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/WhatsApp-AI-Agent/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/WhatsApp-AI-Agent/app.py", line 18, in webhook_handler
+    return handle_whatsapp_message(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/WhatsApp-AI-Agent/whatsapp.py", line 61, in handle_whatsapp_message
+    save_message(chat_id, "user", user_message)
+  File "/home/runner/WhatsApp-AI-Agent/chat_logger.py", line 21, in save_message
+    export_chat_to_airtable(user_id, [{"timestamp": timestamp, "role": role, "message": message}])
+    ^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'export_chat_to_airtable' is not defined
+2024-12-15 04:28:05,816 [INFO] 172.31.196.44 - - [15/Dec/2024 04:28:05] "[35m[1mPOST /webhook HTTP/1.1[0m" 500 -
+2024-12-15 04:28:17,557 [ERROR] Exception on /webhook [POST]
+Traceback (most recent call last):
+  File "/home/runner/WhatsApp-AI-Agent/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/WhatsApp-AI-Agent/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/WhatsApp-AI-Agent/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/WhatsApp-AI-Agent/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/WhatsApp-AI-Agent/app.py", line 18, in webhook_handler
+    return handle_whatsapp_message(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/WhatsApp-AI-Agent/whatsapp.py", line 61, in handle_whatsapp_message
+    save_message(chat_id, "user", user_message)
+  File "/home/runner/WhatsApp-AI-Agent/chat_logger.py", line 21, in save_message
+    export_chat_to_airtable(user_id, [{"timestamp": timestamp, "role": role, "message": message}])
+    ^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'export_chat_to_airtable' is not defined
+2024-12-15 04:28:17,559 [INFO] 172.31.196.44 - - [15/Dec/2024 04:28:17] "[35m[1mPOST /webhook HTTP/1.1[0m" 500 -
+2024-12-15 04:30:55,907 [INFO] Logging initialized. This will appear in both the console and the log file.
+2024-12-15 04:30:55,908 [INFO] Starting the application...
+2024-12-15 04:30:55,911 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.196.44:5000
+2024-12-15 04:30:55,912 [INFO] [33mPress CTRL+C to quit[0m
+2024-12-15 04:30:56,778 [INFO] 172.31.196.44 - - [15/Dec/2024 04:30:56] "GET /?initialPath=/&id=:r9c6: HTTP/1.1" 200 -
+2024-12-15 04:30:56,986 [INFO] 172.31.196.44 - - [15/Dec/2024 04:30:56] "GET / HTTP/1.1" 200 -
+2024-12-15 04:30:57,176 [INFO] 172.31.196.44 - - [15/Dec/2024 04:30:57] "GET / HTTP/1.1" 200 -
+2024-12-15 04:31:06,271 [INFO] Received message from 4915259013270@s.whatsapp.net: Hello
+2024-12-15 04:31:07,045 [INFO] HTTP Request: POST https://api.openai.com/v1/threads/runs "HTTP/1.1 200 OK"
+2024-12-15 04:31:07,051 [INFO] Created new thread for 4915259013270@s.whatsapp.net with thread ID: thread_AXMUw5NSWn21BPihWStvgZba
+2024-12-15 04:31:07,356 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_AXMUw5NSWn21BPihWStvgZba/runs/run_B726vcTbmYSJIP6g0YwmcKnO "HTTP/1.1 200 OK"
+2024-12-15 04:31:07,359 [INFO] Waiting for assistant's response on thread thread_AXMUw5NSWn21BPihWStvgZba...
+2024-12-15 04:31:09,514 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_AXMUw5NSWn21BPihWStvgZba/runs/run_B726vcTbmYSJIP6g0YwmcKnO "HTTP/1.1 200 OK"
+2024-12-15 04:31:09,517 [INFO] Waiting for assistant's response on thread thread_AXMUw5NSWn21BPihWStvgZba...
+2024-12-15 04:31:11,866 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_AXMUw5NSWn21BPihWStvgZba/runs/run_B726vcTbmYSJIP6g0YwmcKnO "HTTP/1.1 200 OK"
+2024-12-15 04:31:12,143 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_AXMUw5NSWn21BPihWStvgZba/messages "HTTP/1.1 200 OK"
+2024-12-15 04:31:12,150 [INFO] Assistant reply for 4915259013270@s.whatsapp.net: Hallo und herzlich willkommen zur LR Health Mission! Ich bin hier, um Sie durch unser 6-monatiges Programm zu führen, das Ihre Verdauung, Leberfunktion und den Zellstoffwechsel unterstützt. Darf ich Ihnen ein paar kurze Fragen stellen, um Ihre Ziele besser zu verstehen?
+2024-12-15 04:31:12,151 [INFO] Assistant reply for 4915259013270@s.whatsapp.net: Hallo und herzlich willkommen zur LR Health Mission! Ich bin hier, um Sie durch unser 6-monatiges Programm zu führen, das Ihre Verdauung, Leberfunktion und den Zellstoffwechsel unterstützt. Darf ich Ihnen ein paar kurze Fragen stellen, um Ihre Ziele besser zu verstehen?
+2024-12-15 04:31:12,779 [INFO] Auto-reply status: 200, response: {"sent":true,"message":{"id":"yqJy.3y0fUWjoKM-wFYEeGxEeJY","from_me":true,"type":"text","chat_id":"4915259013270@s.whatsapp.net","timestamp":1734237072,"source":"api","device_id":1,"status":"pending","text":{"body":"Hallo und herzlich willkommen zur LR Health Mission! Ich bin hier, um Sie durch unser 6-monatiges Programm zu führen, das Ihre Verdauung, Leberfunktion und den Zellstoffwechsel unterstützt. Darf ich Ihnen ein paar kurze Fragen stellen, um Ihre Ziele besser zu verstehen?"},"from":"491732885024"}}
+2024-12-15 04:31:12,781 [INFO] 172.31.196.44 - - [15/Dec/2024 04:31:12] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 04:31:13,440 [INFO] 172.31.196.44 - - [15/Dec/2024 04:31:13] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 04:31:13,977 [INFO] 172.31.196.44 - - [15/Dec/2024 04:31:13] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 04:32:55,693 [INFO] Logging initialized. This will appear in both the console and the log file.
+2024-12-15 04:32:55,694 [INFO] Starting the application...
+2024-12-15 04:32:55,709 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.196.44:5000
+2024-12-15 04:32:55,720 [INFO] [33mPress CTRL+C to quit[0m
+2024-12-15 04:32:56,558 [INFO] 172.31.196.44 - - [15/Dec/2024 04:32:56] "GET /?initialPath=/&id=:r9d7: HTTP/1.1" 200 -
+2024-12-15 04:32:56,802 [INFO] 172.31.196.44 - - [15/Dec/2024 04:32:56] "GET / HTTP/1.1" 200 -
+2024-12-15 04:32:57,048 [INFO] 172.31.196.44 - - [15/Dec/2024 04:32:57] "GET / HTTP/1.1" 200 -
+2024-12-15 04:33:04,438 [ERROR] Exception on /webhook [POST]
+Traceback (most recent call last):
+  File "/home/runner/WhatsApp-AI-Agent/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/WhatsApp-AI-Agent/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/WhatsApp-AI-Agent/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/WhatsApp-AI-Agent/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/WhatsApp-AI-Agent/app.py", line 18, in webhook_handler
+    return handle_whatsapp_message(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/WhatsApp-AI-Agent/whatsapp.py", line 41, in handle_whatsapp_message
+    airtable_client.save_record(record)
+    ^^^^^^^^^^^^^^^
+NameError: name 'airtable_client' is not defined
+2024-12-15 04:33:04,440 [INFO] 172.31.196.44 - - [15/Dec/2024 04:33:04] "[35m[1mPOST /webhook HTTP/1.1[0m" 500 -
+2024-12-15 04:33:24,679 [ERROR] Exception on /webhook [POST]
+Traceback (most recent call last):
+  File "/home/runner/WhatsApp-AI-Agent/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/WhatsApp-AI-Agent/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/WhatsApp-AI-Agent/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/WhatsApp-AI-Agent/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/WhatsApp-AI-Agent/app.py", line 18, in webhook_handler
+    return handle_whatsapp_message(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/WhatsApp-AI-Agent/whatsapp.py", line 41, in handle_whatsapp_message
+    airtable_client.save_record(record)
+    ^^^^^^^^^^^^^^^
+NameError: name 'airtable_client' is not defined
+2024-12-15 04:33:24,680 [INFO] 172.31.196.44 - - [15/Dec/2024 04:33:24] "[35m[1mPOST /webhook HTTP/1.1[0m" 500 -
+2024-12-15 04:34:42,103 [INFO] Logging initialized. This will appear in both the console and the log file.
+2024-12-15 04:34:42,103 [INFO] Starting the application...
+2024-12-15 04:34:42,108 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.196.44:5000
+2024-12-15 04:34:42,108 [INFO] [33mPress CTRL+C to quit[0m
+2024-12-15 04:34:42,959 [INFO] 172.31.196.44 - - [15/Dec/2024 04:34:42] "GET /?initialPath=/&id=:r9dn: HTTP/1.1" 200 -
+2024-12-15 04:34:43,180 [INFO] 172.31.196.44 - - [15/Dec/2024 04:34:43] "GET / HTTP/1.1" 200 -
+2024-12-15 04:34:43,369 [INFO] 172.31.196.44 - - [15/Dec/2024 04:34:43] "GET / HTTP/1.1" 200 -
+2024-12-15 04:34:49,297 [INFO] 172.31.196.44 - - [15/Dec/2024 04:34:49] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 04:40:36,143 [INFO] Logging initialized. This will appear in both the console and the log file.
+2024-12-15 04:40:36,146 [INFO] Starting the application...
+2024-12-15 04:40:36,155 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.196.44:5000
+2024-12-15 04:40:36,162 [INFO] [33mPress CTRL+C to quit[0m
+2024-12-15 04:40:49,105 [INFO] Logging initialized. This will appear in both the console and the log file.
+2024-12-15 04:40:49,107 [INFO] Starting the application...
+2024-12-15 04:40:49,117 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.196.44:5000
+2024-12-15 04:40:49,119 [INFO] [33mPress CTRL+C to quit[0m
+2024-12-15 04:40:50,000 [INFO] 172.31.196.44 - - [15/Dec/2024 04:40:50] "GET /?initialPath=/&id=:r9ga: HTTP/1.1" 200 -
+2024-12-15 04:40:50,256 [INFO] 172.31.196.44 - - [15/Dec/2024 04:40:50] "GET / HTTP/1.1" 200 -
+2024-12-15 04:40:50,441 [INFO] 172.31.196.44 - - [15/Dec/2024 04:40:50] "GET / HTTP/1.1" 200 -
+2024-12-15 04:40:55,431 [ERROR] Exception on /webhook [POST]
+Traceback (most recent call last):
+  File "/home/runner/WhatsApp-AI-Agent/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/WhatsApp-AI-Agent/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/WhatsApp-AI-Agent/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/WhatsApp-AI-Agent/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/WhatsApp-AI-Agent/app.py", line 18, in webhook_handler
+    return handle_whatsapp_message(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/WhatsApp-AI-Agent/whatsapp.py", line 42, in handle_whatsapp_message
+    airtable_client.save_record(record)
+TypeError: AirtableClient.save_record() missing 1 required positional argument: 'message_content'
+2024-12-15 04:40:55,433 [INFO] 172.31.196.44 - - [15/Dec/2024 04:40:55] "[35m[1mPOST /webhook HTTP/1.1[0m" 500 -
+2024-12-15 04:41:33,775 [INFO] Logging initialized. This will appear in both the console and the log file.
+2024-12-15 04:41:33,776 [INFO] Starting the application...
+2024-12-15 04:41:33,782 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.196.44:5000
+2024-12-15 04:41:33,788 [INFO] [33mPress CTRL+C to quit[0m
+2024-12-15 04:41:34,635 [INFO] 172.31.196.44 - - [15/Dec/2024 04:41:34] "GET /?initialPath=/&id=:r9gs: HTTP/1.1" 200 -
+2024-12-15 04:41:34,840 [INFO] 172.31.196.44 - - [15/Dec/2024 04:41:34] "GET / HTTP/1.1" 200 -
+2024-12-15 04:41:35,042 [INFO] 172.31.196.44 - - [15/Dec/2024 04:41:35] "GET / HTTP/1.1" 200 -
+2024-12-15 04:41:40,567 [ERROR] Exception on /webhook [POST]
+Traceback (most recent call last):
+  File "/home/runner/WhatsApp-AI-Agent/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/WhatsApp-AI-Agent/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/WhatsApp-AI-Agent/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/WhatsApp-AI-Agent/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/WhatsApp-AI-Agent/app.py", line 18, in webhook_handler
+    return handle_whatsapp_message(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/WhatsApp-AI-Agent/whatsapp.py", line 42, in handle_whatsapp_message
+    airtable_client.save_record(record)
+TypeError: AirtableClient.save_record() missing 1 required positional argument: 'message_content'
+2024-12-15 04:41:40,569 [INFO] 172.31.196.44 - - [15/Dec/2024 04:41:40] "[35m[1mPOST /webhook HTTP/1.1[0m" 500 -
+2024-12-15 04:44:20,045 [INFO] Logging initialized. This will appear in both the console and the log file.
+2024-12-15 04:44:20,050 [INFO] Starting the application...
+2024-12-15 04:44:20,061 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.196.44:5000
+2024-12-15 04:44:20,062 [INFO] [33mPress CTRL+C to quit[0m
+2024-12-15 04:44:20,858 [INFO] 172.31.196.44 - - [15/Dec/2024 04:44:20] "GET /?initialPath=/&id=:r9hu: HTTP/1.1" 200 -
+2024-12-15 04:44:21,148 [INFO] 172.31.196.44 - - [15/Dec/2024 04:44:21] "GET / HTTP/1.1" 200 -
+2024-12-15 04:44:21,337 [INFO] 172.31.196.44 - - [15/Dec/2024 04:44:21] "GET / HTTP/1.1" 200 -
+2024-12-15 04:44:29,316 [ERROR] Exception on /webhook [POST]
+Traceback (most recent call last):
+  File "/home/runner/WhatsApp-AI-Agent/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/WhatsApp-AI-Agent/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/WhatsApp-AI-Agent/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/WhatsApp-AI-Agent/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/WhatsApp-AI-Agent/app.py", line 18, in webhook_handler
+    return handle_whatsapp_message(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/WhatsApp-AI-Agent/whatsapp.py", line 31, in handle_whatsapp_message
+    airtable_client.save_record(chat_id, user_message)  # Ensure both arguments are passed
+                                ^^^^^^^
+NameError: name 'chat_id' is not defined
+2024-12-15 04:44:29,318 [INFO] 172.31.196.44 - - [15/Dec/2024 04:44:29] "[35m[1mPOST /webhook HTTP/1.1[0m" 500 -
+2024-12-15 04:45:15,482 [INFO] Logging initialized. This will appear in both the console and the log file.
+2024-12-15 04:45:15,483 [INFO] Starting the application...
+2024-12-15 04:45:15,493 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.196.44:5000
+2024-12-15 04:45:15,495 [INFO] [33mPress CTRL+C to quit[0m
+2024-12-15 04:45:16,280 [INFO] 172.31.196.44 - - [15/Dec/2024 04:45:16] "GET /?initialPath=/&id=:r9is: HTTP/1.1" 200 -
+2024-12-15 04:45:16,531 [INFO] 172.31.196.44 - - [15/Dec/2024 04:45:16] "GET / HTTP/1.1" 200 -
+2024-12-15 04:45:16,738 [INFO] 172.31.196.44 - - [15/Dec/2024 04:45:16] "GET / HTTP/1.1" 200 -
+2024-12-15 04:45:23,168 [ERROR] Exception on /webhook [POST]
+Traceback (most recent call last):
+  File "/home/runner/WhatsApp-AI-Agent/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/WhatsApp-AI-Agent/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/WhatsApp-AI-Agent/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/WhatsApp-AI-Agent/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/WhatsApp-AI-Agent/app.py", line 18, in webhook_handler
+    return handle_whatsapp_message(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/WhatsApp-AI-Agent/whatsapp.py", line 42, in handle_whatsapp_message
+    airtable_client.save_record(chat_id, user_message)
+                               ^^^^^^^
+NameError: name 'chat_id' is not defined
+2024-12-15 04:45:23,170 [INFO] 172.31.196.44 - - [15/Dec/2024 04:45:23] "[35m[1mPOST /webhook HTTP/1.1[0m" 500 -
+2024-12-15 04:46:16,873 [INFO] Logging initialized. This will appear in both the console and the log file.
+2024-12-15 04:46:16,873 [INFO] Starting the application...
+2024-12-15 04:46:16,881 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.196.44:5000
+2024-12-15 04:46:16,881 [INFO] [33mPress CTRL+C to quit[0m
+2024-12-15 04:46:17,750 [INFO] 172.31.196.44 - - [15/Dec/2024 04:46:17] "GET /?initialPath=/&id=:r9ji: HTTP/1.1" 200 -
+2024-12-15 04:46:17,964 [INFO] 172.31.196.44 - - [15/Dec/2024 04:46:17] "GET / HTTP/1.1" 200 -
+2024-12-15 04:46:18,157 [INFO] 172.31.196.44 - - [15/Dec/2024 04:46:18] "GET / HTTP/1.1" 200 -
+2024-12-15 04:46:25,086 [INFO] HTTP Request: POST https://api.openai.com/v1/threads/runs "HTTP/1.1 200 OK"
+2024-12-15 04:46:25,093 [INFO] Created new thread for 4915259013270@s.whatsapp.net with thread ID: thread_oymyhFdII5UEqaBawuAUQOmM
+2024-12-15 04:46:25,244 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_oymyhFdII5UEqaBawuAUQOmM/runs/run_g7cQkQsbNMjLwRATmsrdjaPK "HTTP/1.1 200 OK"
+2024-12-15 04:46:25,295 [INFO] Waiting for assistant's response on thread thread_oymyhFdII5UEqaBawuAUQOmM...
+2024-12-15 04:46:27,681 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_oymyhFdII5UEqaBawuAUQOmM/runs/run_g7cQkQsbNMjLwRATmsrdjaPK "HTTP/1.1 200 OK"
+2024-12-15 04:46:27,683 [INFO] Waiting for assistant's response on thread thread_oymyhFdII5UEqaBawuAUQOmM...
+2024-12-15 04:46:29,845 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_oymyhFdII5UEqaBawuAUQOmM/runs/run_g7cQkQsbNMjLwRATmsrdjaPK "HTTP/1.1 200 OK"
+2024-12-15 04:46:30,203 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_oymyhFdII5UEqaBawuAUQOmM/messages "HTTP/1.1 200 OK"
+2024-12-15 04:46:30,214 [INFO] Assistant reply for 4915259013270@s.whatsapp.net: Hallo und herzlich willkommen zur LR Health Mission! Ich bin hier, um Sie durch unser 6-monatiges Programm zu führen, das Ihre Verdauung, Leberfunktion und den Zellstoffwechsel unterstützt. Darf ich Ihnen ein paar kurze Fragen stellen, um Ihre Ziele besser zu verstehen?
+2024-12-15 04:46:31,177 [INFO] Auto-reply status: 200, response: {"sent":true,"message":{"id":"yqIjJ04PKXqhjEI-wIUEeGxEeJY","from_me":true,"type":"text","chat_id":"4915259013270@s.whatsapp.net","timestamp":1734237990,"source":"api","device_id":1,"status":"pending","text":{"body":"Hallo und herzlich willkommen zur LR Health Mission! Ich bin hier, um Sie durch unser 6-monatiges Programm zu führen, das Ihre Verdauung, Leberfunktion und den Zellstoffwechsel unterstützt. Darf ich Ihnen ein paar kurze Fragen stellen, um Ihre Ziele besser zu verstehen?"},"from":"491732885024"}}
+2024-12-15 04:46:31,188 [INFO] 172.31.196.44 - - [15/Dec/2024 04:46:31] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 04:46:31,817 [INFO] 172.31.196.44 - - [15/Dec/2024 04:46:31] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 04:46:32,636 [INFO] 172.31.196.44 - - [15/Dec/2024 04:46:32] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 04:47:04,819 [INFO] Logging initialized. This will appear in both the console and the log file.
+2024-12-15 04:47:04,819 [INFO] Starting the application...
+2024-12-15 04:47:04,825 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.196.44:5000
+2024-12-15 04:47:04,825 [INFO] [33mPress CTRL+C to quit[0m
+2024-12-15 04:47:05,677 [INFO] 172.31.196.44 - - [15/Dec/2024 04:47:05] "GET /?initialPath=/&id=:r9k4: HTTP/1.1" 200 -
+2024-12-15 04:47:05,841 [INFO] 172.31.196.44 - - [15/Dec/2024 04:47:05] "GET / HTTP/1.1" 200 -
+2024-12-15 04:47:06,093 [INFO] 172.31.196.44 - - [15/Dec/2024 04:47:06] "GET / HTTP/1.1" 200 -
+2024-12-15 04:47:11,300 [INFO] HTTP Request: POST https://api.openai.com/v1/threads/runs "HTTP/1.1 200 OK"
+2024-12-15 04:47:11,311 [INFO] Created new thread for 4915259013270@s.whatsapp.net with thread ID: thread_vdDOhL3u80tNfFuCYTm9eIN7
+2024-12-15 04:47:11,680 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_vdDOhL3u80tNfFuCYTm9eIN7/runs/run_rQ2YlBzWpI6zjhKCWoFAugmo "HTTP/1.1 200 OK"
+2024-12-15 04:47:11,681 [INFO] Waiting for assistant's response on thread thread_vdDOhL3u80tNfFuCYTm9eIN7...
+2024-12-15 04:47:13,856 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_vdDOhL3u80tNfFuCYTm9eIN7/runs/run_rQ2YlBzWpI6zjhKCWoFAugmo "HTTP/1.1 200 OK"
+2024-12-15 04:47:13,859 [INFO] Waiting for assistant's response on thread thread_vdDOhL3u80tNfFuCYTm9eIN7...
+2024-12-15 04:47:16,006 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_vdDOhL3u80tNfFuCYTm9eIN7/runs/run_rQ2YlBzWpI6zjhKCWoFAugmo "HTTP/1.1 200 OK"
+2024-12-15 04:47:16,166 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_vdDOhL3u80tNfFuCYTm9eIN7/messages "HTTP/1.1 200 OK"
+2024-12-15 04:47:16,185 [INFO] Assistant reply for 4915259013270@s.whatsapp.net: Hallo und herzlich willkommen zur LR Health Mission! Ich bin hier, um Sie durch unser 6-monatiges Programm zu führen, das Ihre Verdauung, Leberfunktion und den Zellstoffwechsel unterstützt. Darf ich Ihnen ein paar kurze Fragen stellen, um Ihre Ziele besser zu verstehen?
+2024-12-15 04:47:17,001 [INFO] Auto-reply status: 200, response: {"sent":true,"message":{"id":"yqJlbQv8s8UNbiQ-wPoEeGxEeJY","from_me":true,"type":"text","chat_id":"4915259013270@s.whatsapp.net","timestamp":1734238036,"source":"api","device_id":1,"status":"pending","text":{"body":"Hallo und herzlich willkommen zur LR Health Mission! Ich bin hier, um Sie durch unser 6-monatiges Programm zu führen, das Ihre Verdauung, Leberfunktion und den Zellstoffwechsel unterstützt. Darf ich Ihnen ein paar kurze Fragen stellen, um Ihre Ziele besser zu verstehen?"},"from":"491732885024"}}
+2024-12-15 04:47:17,008 [INFO] 172.31.196.44 - - [15/Dec/2024 04:47:17] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 04:47:17,638 [INFO] 172.31.196.44 - - [15/Dec/2024 04:47:17] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 04:47:18,203 [INFO] 172.31.196.44 - - [15/Dec/2024 04:47:18] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 04:48:00,785 [INFO] HTTP Request: POST https://api.openai.com/v1/threads/thread_vdDOhL3u80tNfFuCYTm9eIN7/messages "HTTP/1.1 200 OK"
+2024-12-15 04:48:01,735 [INFO] HTTP Request: POST https://api.openai.com/v1/threads/thread_vdDOhL3u80tNfFuCYTm9eIN7/runs "HTTP/1.1 200 OK"
+2024-12-15 04:48:01,743 [INFO] Reused thread thread_vdDOhL3u80tNfFuCYTm9eIN7 for 4915259013270@s.whatsapp.net, new run ID: run_dBvOBm0UC0oJpSNvR9pcIeGl
+2024-12-15 04:48:01,930 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_vdDOhL3u80tNfFuCYTm9eIN7/runs/run_dBvOBm0UC0oJpSNvR9pcIeGl "HTTP/1.1 200 OK"
+2024-12-15 04:48:01,934 [INFO] Waiting for assistant's response on thread thread_vdDOhL3u80tNfFuCYTm9eIN7...
+2024-12-15 04:48:04,118 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_vdDOhL3u80tNfFuCYTm9eIN7/runs/run_dBvOBm0UC0oJpSNvR9pcIeGl "HTTP/1.1 200 OK"
+2024-12-15 04:48:04,119 [INFO] Waiting for assistant's response on thread thread_vdDOhL3u80tNfFuCYTm9eIN7...
+2024-12-15 04:48:06,317 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_vdDOhL3u80tNfFuCYTm9eIN7/runs/run_dBvOBm0UC0oJpSNvR9pcIeGl "HTTP/1.1 200 OK"
+2024-12-15 04:48:06,578 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_vdDOhL3u80tNfFuCYTm9eIN7/messages "HTTP/1.1 200 OK"
+2024-12-15 04:48:06,580 [INFO] Assistant reply for 4915259013270@s.whatsapp.net: Was ist Ihr Hauptziel?  
+1️⃣ Mehr Energie und allgemeines Wohlbefinden.  
+2️⃣ Unterstützung für die Verdauung und Darmgesundheit.  
+3️⃣ Detox und Verbesserung der Leberfunktion.
+2024-12-15 04:48:07,450 [INFO] Auto-reply status: 200, response: {"sent":true,"message":{"id":"yqJUat3WwYQ8UUk-wJ4EeGxEeJY","from_me":true,"type":"text","chat_id":"4915259013270@s.whatsapp.net","timestamp":1734238087,"source":"api","device_id":1,"status":"pending","text":{"body":"Was ist Ihr Hauptziel?  \n1️⃣ Mehr Energie und allgemeines Wohlbefinden.  \n2️⃣ Unterstützung für die Verdauung und Darmgesundheit.  \n3️⃣ Detox und Verbesserung der Leberfunktion."},"from":"491732885024"}}
+2024-12-15 04:48:07,455 [INFO] 172.31.196.44 - - [15/Dec/2024 04:48:07] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 04:48:08,082 [INFO] 172.31.196.44 - - [15/Dec/2024 04:48:08] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 04:48:08,582 [INFO] 172.31.196.44 - - [15/Dec/2024 04:48:08] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 04:48:13,190 [INFO] HTTP Request: POST https://api.openai.com/v1/threads/thread_vdDOhL3u80tNfFuCYTm9eIN7/messages "HTTP/1.1 200 OK"
+2024-12-15 04:48:13,728 [INFO] HTTP Request: POST https://api.openai.com/v1/threads/thread_vdDOhL3u80tNfFuCYTm9eIN7/runs "HTTP/1.1 200 OK"
+2024-12-15 04:48:13,731 [INFO] Reused thread thread_vdDOhL3u80tNfFuCYTm9eIN7 for 4915259013270@s.whatsapp.net, new run ID: run_dCmRes8Cai8yx6NSk1XFNrL0
+2024-12-15 04:48:13,891 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_vdDOhL3u80tNfFuCYTm9eIN7/runs/run_dCmRes8Cai8yx6NSk1XFNrL0 "HTTP/1.1 200 OK"
+2024-12-15 04:48:13,892 [INFO] Waiting for assistant's response on thread thread_vdDOhL3u80tNfFuCYTm9eIN7...
+2024-12-15 04:48:16,085 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_vdDOhL3u80tNfFuCYTm9eIN7/runs/run_dCmRes8Cai8yx6NSk1XFNrL0 "HTTP/1.1 200 OK"
+2024-12-15 04:48:16,086 [INFO] Waiting for assistant's response on thread thread_vdDOhL3u80tNfFuCYTm9eIN7...
+2024-12-15 04:48:18,259 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_vdDOhL3u80tNfFuCYTm9eIN7/runs/run_dCmRes8Cai8yx6NSk1XFNrL0 "HTTP/1.1 200 OK"
+2024-12-15 04:48:18,262 [INFO] Waiting for assistant's response on thread thread_vdDOhL3u80tNfFuCYTm9eIN7...
+2024-12-15 04:48:20,441 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_vdDOhL3u80tNfFuCYTm9eIN7/runs/run_dCmRes8Cai8yx6NSk1XFNrL0 "HTTP/1.1 200 OK"
+2024-12-15 04:48:20,586 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_vdDOhL3u80tNfFuCYTm9eIN7/messages "HTTP/1.1 200 OK"
+2024-12-15 04:48:20,590 [INFO] Assistant reply for 4915259013270@s.whatsapp.net: Super! Energie und Wohlbefinden sind zentrale Vorteile der LR Health Mission, vor allem durch das Aloe Vera Drinking Gel. Ich erkläre Ihnen gerne, wie es wirkt.
+
+Die LR Health Mission besteht aus drei Hauptkomponenten:  
+🔹 **Aloe Vera Drinking Gel** für den Zellstoffwechsel und mehr Energie.  
+🔹 **Liver Support** zur Unterstützung der Leberfunktion und Entgiftung.  
+🔹 **Pro Balance** zur Wiederherstellung des Säure-Basen-Gleichgewichts.  
+Diese Komponenten arbeiten zusammen, um Verdauung, Entgiftung und Vitalität zu fördern.
+
+Klingt das bisher passend für Ihre Ziele?
+2024-12-15 04:48:21,209 [INFO] Auto-reply status: 200, response: {"sent":true,"message":{"id":"yqL6pWOu37H1hnE-wKEEeGxEeJY","from_me":true,"type":"text","chat_id":"4915259013270@s.whatsapp.net","timestamp":1734238100,"source":"api","device_id":1,"status":"pending","text":{"body":"Super! Energie und Wohlbefinden sind zentrale Vorteile der LR Health Mission, vor allem durch das Aloe Vera Drinking Gel. Ich erkläre Ihnen gerne, wie es wirkt.\n\nDie LR Health Mission besteht aus drei Hauptkomponenten:  \n🔹 **Aloe Vera Drinking Gel** für den Zellstoffwechsel und mehr Energie.  \n🔹 **Liver Support** zur Unterstützung der Leberfunktion und Entgiftung.  \n🔹 **Pro Balance** zur Wiederherstellung des Säure-Basen-Gleichgewichts.  \nDiese Komponenten arbeiten zusammen, um Verdauung, Entgiftung und Vitalität zu fördern.\n\nKlingt das bisher passend für Ihre Ziele?"},"from":"491732885024"}}
+2024-12-15 04:48:21,211 [INFO] 172.31.196.44 - - [15/Dec/2024 04:48:21] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 04:48:21,843 [INFO] 172.31.196.44 - - [15/Dec/2024 04:48:21] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 04:48:22,425 [INFO] 172.31.196.44 - - [15/Dec/2024 04:48:22] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 04:50:57,524 [INFO] 172.31.196.44 - - [15/Dec/2024 04:50:57] "POST /webhook HTTP/1.1" 200 -

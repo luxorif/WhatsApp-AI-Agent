@@ -1,5 +1,6 @@
 from flask import Flask, request, jsonify
 from whatsapp import send_auto_reply, handle_whatsapp_message
+import os
 
 # Flask app initialization
 app = Flask(__name__)
@@ -16,6 +17,5 @@ def webhook_handler():
     data = request.json
     return handle_whatsapp_message(data)
 
-# Flask app entry point
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)

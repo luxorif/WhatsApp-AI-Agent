@@ -1,7 +1,9 @@
 from app import app  # Flask app
-import openai_client  # Initialize OpenAI client
+import openai_client
 import whatsapp  # WhatsApp handling logic
+import airtable_client
 import logging
+import os
 from logging.handlers import RotatingFileHandler
 
 # Configure the logging
