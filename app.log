@@ -1,0 +1,114 @@
+2024-12-15 03:20:32,359 [INFO] Logging initialized. This will appear in both the console and the log file.
+2024-12-15 03:21:14,642 [INFO] Logging initialized. This will appear in both the console and the log file.
+2024-12-15 03:21:14,643 [INFO] Starting the application...
+2024-12-15 03:22:57,633 [INFO] Logging initialized. This will appear in both the console and the log file.
+2024-12-15 03:22:57,633 [INFO] Starting the application...
+2024-12-15 03:22:57,638 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.196.44:5000
+2024-12-15 03:22:57,639 [INFO] [33mPress CTRL+C to quit[0m
+2024-12-15 03:22:58,572 [INFO] 172.31.196.44 - - [15/Dec/2024 03:22:58] "GET /?initialPath=/&id=:r8bs: HTTP/1.1" 200 -
+2024-12-15 03:22:58,773 [INFO] 172.31.196.44 - - [15/Dec/2024 03:22:58] "GET / HTTP/1.1" 200 -
+2024-12-15 03:22:59,015 [INFO] 172.31.196.44 - - [15/Dec/2024 03:22:59] "GET / HTTP/1.1" 200 -
+2024-12-15 03:23:24,661 [INFO] HTTP Request: POST https://api.openai.com/v1/threads/runs "HTTP/1.1 200 OK"
+2024-12-15 03:23:25,040 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_Q3WdZLTKFZW0f1b71b2HoU3g/runs/run_gh0dRN6OX76MgQjOb7gBD1v9 "HTTP/1.1 200 OK"
+2024-12-15 03:23:27,735 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_Q3WdZLTKFZW0f1b71b2HoU3g/runs/run_gh0dRN6OX76MgQjOb7gBD1v9 "HTTP/1.1 200 OK"
+2024-12-15 03:23:27,879 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_Q3WdZLTKFZW0f1b71b2HoU3g/messages "HTTP/1.1 200 OK"
+2024-12-15 03:23:28,595 [INFO] 172.31.196.44 - - [15/Dec/2024 03:23:28] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:23:29,225 [INFO] 172.31.196.44 - - [15/Dec/2024 03:23:29] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:23:29,987 [INFO] 172.31.196.44 - - [15/Dec/2024 03:23:29] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:25:56,154 [INFO] Logging initialized. This will appear in both the console and the log file.
+2024-12-15 03:25:56,154 [INFO] Starting the application...
+2024-12-15 03:25:56,161 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.196.44:5000
+2024-12-15 03:25:56,162 [INFO] [33mPress CTRL+C to quit[0m
+2024-12-15 03:25:56,921 [INFO] 172.31.196.44 - - [15/Dec/2024 03:25:56] "GET /?initialPath=/&id=:r8fn: HTTP/1.1" 200 -
+2024-12-15 03:25:57,193 [INFO] 172.31.196.44 - - [15/Dec/2024 03:25:57] "GET / HTTP/1.1" 200 -
+2024-12-15 03:25:57,381 [INFO] 172.31.196.44 - - [15/Dec/2024 03:25:57] "GET / HTTP/1.1" 200 -
+2024-12-15 03:26:09,547 [INFO] Received message from 4915259013270@s.whatsapp.net: Hey
+2024-12-15 03:26:13,118 [INFO] HTTP Request: POST https://api.openai.com/v1/threads/runs "HTTP/1.1 200 OK"
+2024-12-15 03:26:13,129 [ERROR] Exception on /webhook [POST]
+Traceback (most recent call last):
+  File "/home/runner/WhatsApp-AI-Agent/openai_client.py", line 87, in get_reply
+    self.get_or_create_thread(user_id, message_text)
+  File "/home/runner/WhatsApp-AI-Agent/openai_client.py", line 38, in get_or_create_thread
+    logging.info(f"Created new thread for {user_id} with thread ID: {run.thread_id}")
+    ^^^^^^^
+NameError: name 'logging' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/WhatsApp-AI-Agent/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/WhatsApp-AI-Agent/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/WhatsApp-AI-Agent/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/WhatsApp-AI-Agent/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/WhatsApp-AI-Agent/app.py", line 17, in webhook_handler
+    return handle_whatsapp_message(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/WhatsApp-AI-Agent/whatsapp.py", line 38, in handle_whatsapp_message
+    assistant_reply = openai_client.get_reply(chat_id, user_message)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/WhatsApp-AI-Agent/openai_client.py", line 111, in get_reply
+    logging.error(f"Error in OpenAI API for user {user_id}: {e}")
+    ^^^^^^^
+NameError: name 'logging' is not defined
+2024-12-15 03:26:13,132 [INFO] 172.31.196.44 - - [15/Dec/2024 03:26:13] "[35m[1mPOST /webhook HTTP/1.1[0m" 500 -
+2024-12-15 03:26:50,213 [INFO] Logging initialized. This will appear in both the console and the log file.
+2024-12-15 03:26:50,213 [INFO] Starting the application...
+2024-12-15 03:26:50,219 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.196.44:5000
+2024-12-15 03:26:50,219 [INFO] [33mPress CTRL+C to quit[0m
+2024-12-15 03:26:50,988 [INFO] 172.31.196.44 - - [15/Dec/2024 03:26:50] "GET /?initialPath=/&id=:r8ga: HTTP/1.1" 200 -
+2024-12-15 03:26:51,287 [INFO] 172.31.196.44 - - [15/Dec/2024 03:26:51] "GET / HTTP/1.1" 200 -
+2024-12-15 03:26:51,476 [INFO] 172.31.196.44 - - [15/Dec/2024 03:26:51] "GET / HTTP/1.1" 200 -
+2024-12-15 03:26:57,634 [INFO] Received message from 4915259013270@s.whatsapp.net: Hey
+2024-12-15 03:26:58,220 [INFO] HTTP Request: POST https://api.openai.com/v1/threads/runs "HTTP/1.1 200 OK"
+2024-12-15 03:26:58,229 [INFO] Created new thread for 4915259013270@s.whatsapp.net with thread ID: thread_6MWWAwytUEohxPfnwS0gpvRl
+2024-12-15 03:26:58,420 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_6MWWAwytUEohxPfnwS0gpvRl/runs/run_mrGd8QQ9ACnd5h8CG35J02jH "HTTP/1.1 200 OK"
+2024-12-15 03:26:58,421 [INFO] Waiting for assistant's response on thread thread_6MWWAwytUEohxPfnwS0gpvRl...
+2024-12-15 03:27:00,770 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_6MWWAwytUEohxPfnwS0gpvRl/runs/run_mrGd8QQ9ACnd5h8CG35J02jH "HTTP/1.1 200 OK"
+2024-12-15 03:27:01,090 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_6MWWAwytUEohxPfnwS0gpvRl/messages "HTTP/1.1 200 OK"
+2024-12-15 03:27:01,099 [INFO] Assistant reply for 4915259013270@s.whatsapp.net: Hey, I'm happy to catch your interest in the LR Health Mission program. What are your concerns?
+2024-12-15 03:27:01,100 [INFO] Assistant reply for 4915259013270@s.whatsapp.net: Hey, I'm happy to catch your interest in the LR Health Mission program. What are your concerns?
+2024-12-15 03:27:01,742 [INFO] Auto-reply status: 200, response: {"sent":true,"message":{"id":"yqILq6TsLOiAPLA-wOQEeGxEeJY","from_me":true,"type":"text","chat_id":"4915259013270@s.whatsapp.net","timestamp":1734233221,"source":"api","device_id":1,"status":"pending","text":{"body":"Hey, I'm happy to catch your interest in the LR Health Mission program. What are your concerns?"},"from":"491732885024"}}
+2024-12-15 03:27:01,744 [INFO] 172.31.196.44 - - [15/Dec/2024 03:27:01] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:27:02,442 [INFO] 172.31.196.44 - - [15/Dec/2024 03:27:02] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:27:03,058 [INFO] 172.31.196.44 - - [15/Dec/2024 03:27:03] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:27:19,684 [INFO] Received message from 4915259013270@s.whatsapp.net: I have liver issues
+2024-12-15 03:27:20,008 [INFO] HTTP Request: POST https://api.openai.com/v1/threads/thread_6MWWAwytUEohxPfnwS0gpvRl/messages "HTTP/1.1 200 OK"
+2024-12-15 03:27:20,853 [INFO] HTTP Request: POST https://api.openai.com/v1/threads/thread_6MWWAwytUEohxPfnwS0gpvRl/runs "HTTP/1.1 200 OK"
+2024-12-15 03:27:20,855 [INFO] Reused thread thread_6MWWAwytUEohxPfnwS0gpvRl for 4915259013270@s.whatsapp.net, new run ID: run_XMlv2Rw1ZccEDaAnDLFgZQdv
+2024-12-15 03:27:20,999 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_6MWWAwytUEohxPfnwS0gpvRl/runs/run_XMlv2Rw1ZccEDaAnDLFgZQdv "HTTP/1.1 200 OK"
+2024-12-15 03:27:21,000 [INFO] Waiting for assistant's response on thread thread_6MWWAwytUEohxPfnwS0gpvRl...
+2024-12-15 03:27:23,171 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_6MWWAwytUEohxPfnwS0gpvRl/runs/run_XMlv2Rw1ZccEDaAnDLFgZQdv "HTTP/1.1 200 OK"
+2024-12-15 03:27:23,172 [INFO] Waiting for assistant's response on thread thread_6MWWAwytUEohxPfnwS0gpvRl...
+2024-12-15 03:27:25,349 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_6MWWAwytUEohxPfnwS0gpvRl/runs/run_XMlv2Rw1ZccEDaAnDLFgZQdv "HTTP/1.1 200 OK"
+2024-12-15 03:27:25,481 [INFO] HTTP Request: GET https://api.openai.com/v1/threads/thread_6MWWAwytUEohxPfnwS0gpvRl/messages "HTTP/1.1 200 OK"
+2024-12-15 03:27:25,483 [INFO] Assistant reply for 4915259013270@s.whatsapp.net: If you are dealing with liver issues, the LR Health Mission program offers support specifically for the liver through a product called Liver Support. Liver Support is designed to assist the liver in various functions, including regulation of nutrients like carbohydrates, proteins, and fats, as well as the storage of essential vitamins and minerals. Additionally, it aids in detoxification processes, protection of cells from oxidative stress, and supports the synthesis of essential antioxidants like glutathione and taurine.
+
+The liver-supporting components in the Liver Support supplement include choline, manganese, vitamin B6, molybdenum, and extracts like Mariendistel, known for its positive effects on liver health, and its role in liver detoxification and protection【6:1†source】【6:2†source】. 
+
+If you're interested in learning more about how the LR Health Mission program and its Liver Support product can benefit you, I can assist you in scheduling a consultation with Monika, a health expert involved in the program. Would you like to proceed with that?
+2024-12-15 03:27:25,483 [INFO] Assistant reply for 4915259013270@s.whatsapp.net: If you are dealing with liver issues, the LR Health Mission program offers support specifically for the liver through a product called Liver Support. Liver Support is designed to assist the liver in various functions, including regulation of nutrients like carbohydrates, proteins, and fats, as well as the storage of essential vitamins and minerals. Additionally, it aids in detoxification processes, protection of cells from oxidative stress, and supports the synthesis of essential antioxidants like glutathione and taurine.
+
+The liver-supporting components in the Liver Support supplement include choline, manganese, vitamin B6, molybdenum, and extracts like Mariendistel, known for its positive effects on liver health, and its role in liver detoxification and protection【6:1†source】【6:2†source】. 
+
+If you're interested in learning more about how the LR Health Mission program and its Liver Support product can benefit you, I can assist you in scheduling a consultation with Monika, a health expert involved in the program. Would you like to proceed with that?
+2024-12-15 03:27:26,330 [INFO] Auto-reply status: 200, response: {"sent":true,"message":{"id":"yqJ4WypUNNuEFPU-wCEEeGxEeJY","from_me":true,"type":"text","chat_id":"4915259013270@s.whatsapp.net","timestamp":1734233246,"source":"api","device_id":1,"status":"pending","text":{"body":"If you are dealing with liver issues, the LR Health Mission program offers support specifically for the liver through a product called Liver Support. Liver Support is designed to assist the liver in various functions, including regulation of nutrients like carbohydrates, proteins, and fats, as well as the storage of essential vitamins and minerals. Additionally, it aids in detoxification processes, protection of cells from oxidative stress, and supports the synthesis of essential antioxidants like glutathione and taurine.\n\nThe liver-supporting components in the Liver Support supplement include choline, manganese, vitamin B6, molybdenum, and extracts like Mariendistel, known for its positive effects on liver health, and its role in liver detoxification and protection【6:1†source】【6:2†source】. \n\nIf you're interested in learning more about how the LR Health Mission program and its Liver Support product can benefit you, I can assist you in scheduling a consultation with Monika, a health expert involved in the program. Would you like to proceed with that?"},"from":"491732885024"}}
+2024-12-15 03:27:26,333 [INFO] 172.31.196.44 - - [15/Dec/2024 03:27:26] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:27:26,960 [INFO] 172.31.196.44 - - [15/Dec/2024 03:27:26] "POST /webhook HTTP/1.1" 200 -
+2024-12-15 03:27:27,478 [INFO] 172.31.196.44 - - [15/Dec/2024 03:27:27] "POST /webhook HTTP/1.1" 200 -
